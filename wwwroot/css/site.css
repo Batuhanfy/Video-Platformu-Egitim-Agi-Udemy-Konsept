@@ -1,0 +1,98 @@
+
+html {
+    font-size: 14px;
+}
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+}
+
+    .navbar-nav .nav-item {
+        margin-left: 1rem;
+    }
+
+
+.fs-12 {
+    font-size:16px;
+}
+
+.ph-sm::placeholder {
+    font-size: 16px;
+}
+.ph-sm {
+    font-size: 16px;
+}
+.bg-gri {
+    background: #f3f3f3;
+}
+.login_buttons button{
+    border-radius:0px;
+
+}
+.offcanvas {
+    width: 250px;
+}
+.login_buttons .register{
+    background:#000;
+    color:#fff;
+}
+.w-30 {
+    min-width: 10%;
+    max-width: 30%;
+}
+.w-40 {
+    min-width: 30%;
+    max-width: 40%;
+}
+.df-left {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+}
+.navbar-collapse {
+    max-width: 370px;
+}
+.container-fluid-center {
+    justify-content: space-evenly !important;
+}
+.navbar-nav {
+    margin-left: 0; 
+    padding-left: 0;
+}
+
+.nav-item {
+    padding-left: 0;
+}
+
+.nav-link {
+    padding: 0.5rem 1rem; 
+}
+
+.box-shadow {
+    box-shadow: 1px 1px 20px 4px #fafafa;
+}
