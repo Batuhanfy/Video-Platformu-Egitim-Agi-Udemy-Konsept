@@ -32,10 +32,7 @@ body {
     margin-left: auto;
 }
 
-    .navbar-nav .nav-item {
-        margin-left: 1rem;
-    }
-
+  
 
 .fs-12 {
     font-size:16px;
@@ -96,3 +93,6 @@ body {
 .box-shadow {
     box-shadow: 1px 1px 20px 4px #fafafa;
 }
+
+
+
