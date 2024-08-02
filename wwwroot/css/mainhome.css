@@ -170,3 +170,32 @@ button {
     box-shadow: 0 2px 4px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.08);
     height: 500px;
 }
+.video_img img{
+    height:100%;
+    width:100%;
+}
+.description-ex {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+.rating {
+    direction: rtl; 
+    font-size: 24px;
+    color: #d3d3d3; 
+}
+
+    .rating .fa-star {
+        color: gold; 
+    }
+
+        .rating .fa-star.active {
+            color: gold;
+        }
+
+        .rating .fa-star.inactive {
+            color: #d3d3d3;
+        }
