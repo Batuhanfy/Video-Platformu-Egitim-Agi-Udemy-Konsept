@@ -15,15 +15,18 @@
     background:#333;
 }
 
-    .left-menus .nav-item:hover::before {
-        content: ''; 
-        position: absolute;
-        left: 0; 
-        top: 0;
-        height: 100%;
-        width: 4px; 
-        background-color: white; 
-    }
+.table tr {
+    border-style: hidden;
+}
+.left-menus .nav-item:hover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: white;
+}
 .left-menus .nav-item {
     position: relative;
 }
