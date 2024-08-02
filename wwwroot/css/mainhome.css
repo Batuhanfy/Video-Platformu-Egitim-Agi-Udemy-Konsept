@@ -143,3 +143,30 @@ button {
     button.next {
         right: 10px;
     }
+
+
+.bg-1 {
+    background: #333;
+    height: 300px;
+    width: 100%;
+}
+.video-bilgi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    .video-bilgi .category {
+        color: #c0c4fc;
+    }
+
+.main-templates .title {
+    color: #fff;
+    font-weight: 600;
+}
+.video-template {
+    background: #fff;
+    border: 1px solid #d1d7dc;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.08);
+    height: 500px;
+}
