@@ -1,0 +1,88 @@
+﻿@model UdemyEgitimPlatformu.ViewModel.CompositeViewModel
+
+@{
+    ViewData["Title"] = "Register";
+    
+    var logo = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "logo")?.Value;
+    var siteName = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "siteName")?.Value;
+    var siteDescription = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "siteDescription")?.Value;
+    var favicon = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "favicon")?.Value;
+    var siteurl = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "siteurl")?.Value;
+    var yonetimeposta = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "yonetimeposta")?.Value;
+    var header_menu_enable = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "header_menu_enable")?.Value;
+    var login_buttons_enable = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "login_buttons_enable")?.Value;
+
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+    {
+        <div class="alert alert-danger">
+            @error.ErrorMessage
+        </div>
+    }
+}
+
+
+
+<div class="container-fluid" style="height:700px;">
+    <div class="row">
+        <div class="w-50 h-3 d-none d-lg-flex left-image-panel">
+            <img src="~/images/account/desktop.webp" class="d-none d-lg-flex" height="500px;" />
+        </div>
+        <div class="responsive-div">
+            <div class="w-100 register-panel p-3">
+                <h3>
+                    <span>@siteName 'da Oturum Aç</span>
+                </h3>
+
+                <form asp-action="Login" method="post" autocomplete="off">
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-group">
+                        <div class="form-floating">
+                            <input asp-for="LoginViewModel.Email" type="email" class="form-control register-input" id="email" placeholder="E-Posta" autocomplete="off" />
+                            <label for="email">E-Posta</label>
+                        </div>
+                        <span asp-validation-for="LoginViewModel.Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-floating">
+                            <input asp-for="LoginViewModel.Password" type="password" class="form-control register-input" id="password" placeholder="Şifreniz" autocomplete="off" />
+                            <label for="password">Şifreniz</label>
+                        </div>
+                        <span asp-validation-for="LoginViewModel.Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input asp-for="LoginViewModel.RememberMe" class="form-check-input" type="checkbox" id="rememberMe" />
+                            <label asp-for="LoginViewModel.RememberMe" class="form-check-label">Beni Hatırla</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary register-button">Giriş Yap</button>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
