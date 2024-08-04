@@ -5,6 +5,22 @@
       "PackagePath": "staticwebassets\\UdemyEgitimPlatformu.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\3.jpg",
+      "PackagePath": "staticwebassets\\VideosImage\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\7.jpg",
+      "PackagePath": "staticwebassets\\VideosImage\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\css\\mainhome.css",
+      "PackagePath": "staticwebassets\\css\\mainhome.css"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -13,20 +29,192 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\home\\cisco_logo.svg",
+      "PackagePath": "staticwebassets\\icons\\home\\cisco_logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\home\\citi_logo.svg",
+      "PackagePath": "staticwebassets\\icons\\home\\citi_logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\home\\ericsson_logo.svg",
+      "PackagePath": "staticwebassets\\icons\\home\\ericsson_logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\home\\hewlett_packard_enterprise_logo.svg",
+      "PackagePath": "staticwebassets\\icons\\home\\hewlett_packard_enterprise_logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\home\\procter_gamble_logo.svg",
+      "PackagePath": "staticwebassets\\icons\\home\\procter_gamble_logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\home\\samsung_logo.svg",
+      "PackagePath": "staticwebassets\\icons\\home\\samsung_logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\home\\volkswagen_logo.svg",
+      "PackagePath": "staticwebassets\\icons\\home\\volkswagen_logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\admin\\dashboard.svg",
+      "PackagePath": "staticwebassets\\icons\\layout\\admin\\dashboard.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\admin\\home.svg",
+      "PackagePath": "staticwebassets\\icons\\layout\\admin\\home.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\admin\\mail-pencil.svg",
+      "PackagePath": "staticwebassets\\icons\\layout\\admin\\mail-pencil.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\admin\\settings.svg",
+      "PackagePath": "staticwebassets\\icons\\layout\\admin\\settings.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\admin\\world.svg",
+      "PackagePath": "staticwebassets\\icons\\layout\\admin\\world.svg"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\login.svg",
       "PackagePath": "staticwebassets\\icons\\layout\\login.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\logout.svg",
+      "PackagePath": "staticwebassets\\icons\\layout\\logout.svg"
     },
     {
       "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\register.svg",
       "PackagePath": "staticwebassets\\icons\\layout\\register.svg"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\search.svg",
+      "PackagePath": "staticwebassets\\icons\\layout\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\user.svg",
+      "PackagePath": "staticwebassets\\icons\\layout\\user.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\account\\desktop.webp",
+      "PackagePath": "staticwebassets\\images\\account\\desktop.webp"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\account\\man.png",
+      "PackagePath": "staticwebassets\\images\\account\\man.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\banners\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\banners\\videocenter.png",
+      "PackagePath": "staticwebassets\\images\\banners\\videocenter.png"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\main\\Bidemy.png",
       "PackagePath": "staticwebassets\\images\\main\\Bidemy.png"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\main\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\main\\favicon.png"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\main\\idemy.png",
       "PackagePath": "staticwebassets\\images\\main\\idemy.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\5839010577693919379.jpg",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\5839010577693919379.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\Adsız tasarım (4).png",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\Adsız tasarım (4).png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\Adsız tasarım (5).png",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\Adsız tasarım (5).png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\GELECEK ELLERİNDE (2).png",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\GELECEK ELLERİNDE (2).png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\IMG-20240716-WA0008.jpg",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\IMG-20240716-WA0008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\Screenshot_1.jpg",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\Screenshot_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\Video Center (1).png",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\Video Center (1).png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\Video Center (2).png",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\Video Center (2).png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\admin-site-alt2-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\admin-site-alt2-svgrepo-com.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\desktop.webp",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\desktop.webp"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\mail-pencil-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\mail-pencil-svgrepo-com.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\man.png",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\man.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\msg777000-9334.jpg",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\msg777000-9334.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\user-circle-svgrepo-com (2).svg",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\user-circle-svgrepo-com (2).svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\user-refresh-svgrepo-com.svg",
+      "PackagePath": "staticwebassets\\images\\profile_pictures\\user-refresh-svgrepo-com.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\slider\\1.png",
+      "PackagePath": "staticwebassets\\images\\slider\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\slider\\2.png",
+      "PackagePath": "staticwebassets\\images\\slider\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\slider\\3.png",
+      "PackagePath": "staticwebassets\\images\\slider\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\slider\\4.png",
+      "PackagePath": "staticwebassets\\images\\slider\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\slider\\5.png",
+      "PackagePath": "staticwebassets\\images\\slider\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\js\\home.js",
+      "PackagePath": "staticwebassets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\js\\homepage.js",
+      "PackagePath": "staticwebassets\\js\\homepage.js"
     },
     {
       "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\js\\site.js",
@@ -259,6 +447,22 @@
     {
       "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\3.mp4",
+      "PackagePath": "staticwebassets\\videos-short\\3.mp4"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\7.mp4",
+      "PackagePath": "staticwebassets\\videos-short\\7.mp4"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\3.mp4",
+      "PackagePath": "staticwebassets\\videos\\3.mp4"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\7.mp4",
+      "PackagePath": "staticwebassets\\videos\\7.mp4"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.UdemyEgitimPlatformu.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -7,6 +7,10 @@
 <div class="container">
     <div class="row">
         <div class="main-tabs p-4">
+
+
+            <form asp-controller="Account" asp-action="Profil" method="post" enctype="multipart/form-data" class="d-flex flex-column ayarlar-tables">
+
             <div class="tabs1 profile-1">
 
                 @if (!string.IsNullOrEmpty(Model.ApplicationUser.ProfilePictureUrl))
@@ -24,19 +28,21 @@
             @if (TempData["SuccessMessage"] != null)
             {
                 <div class="alert alert-success">
-                    @TempData["message"]
+                    @TempData["SuccessMessage"]
                 </div>
             }
+
             @if (TempData["ErrorMessage"] != null)
             {
                 <div class="alert alert-danger">
-                    @TempData["message"]
+                    @TempData["ErrorMessage"]
                 </div>
             }
 
+          
+
                 <div class="tabs1 p-4">
 
-                <form asp-controller="Account" asp-action="Profil" method="post" class="d-flex flex-column ayarlar-tables">
                     <div class="section-t1">
                         <input type="hidden" asp-for="Username" />
 
@@ -81,25 +87,22 @@
                             <input asp-for="ApplicationUser.PostalCode" class="form-control" />
                         </div>
                        
+
                      </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-primary">Güncelle</button>
-                    </div>
-
-                    </form>
-
-               
-               
-                    
-              
-
-
-            
-
+                 
+ 
 
             </div>
+                <div class="section-t1">
+                    <div class="success-profil-update mt-3">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary updates-button-profil">Güncelle</button>
+                        </div>
+                    </div>
+                    </div>
+            </form>
         </div>
-
+         
     </div>
 
 </div>

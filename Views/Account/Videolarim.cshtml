@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewData["Title"] = "Videolarim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <h4>Hesabınıza Kayıtlı Videolarınız</h4>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Video ID</th>
+                    <th>Kullanıcı Adı</th>
+                    <th>Video Adı</th>
+                    <th>Tarih</th>
+                    <th>İzle</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var video in Model.AlinanVideolarList)
+                {
+                    <tr>
+                        <td>@video.VideoId</td>
+                        <td>@video.Username</td>
+                        <td>@video.VideoName</td>
+                        <td>@video.Tarih</td>
+                        <td>
+                            <a href="@Url.Action("VideoPlay", "Account", new { id = video.VideoId })" class="btn btn-primary">İzle</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

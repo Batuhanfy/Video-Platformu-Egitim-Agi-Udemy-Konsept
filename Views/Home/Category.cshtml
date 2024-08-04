@@ -1,0 +1,24 @@
+﻿
+
+@{
+    ViewData["Title"] = "Category";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Category</h1>
+
+<h2>Kategori Listesi 1</h2>
+<ul>
+    @foreach (var kategori in Model.CategoryViewModel.KategoriListID)
+    {
+        <li>@kategori.Name</li>
+    }
+</ul>
+
+<h2>Kategori Listesi 2</h2>
+<ul>
+    @foreach (var kategori in Model.CategoryViewModel.KategoriListGenel)
+    {
+        <li>@kategori.Name</li>
+    }
+</ul>

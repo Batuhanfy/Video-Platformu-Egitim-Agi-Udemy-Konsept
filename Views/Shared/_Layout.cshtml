@@ -1,76 +1,144 @@
-﻿<!DOCTYPE html>
+﻿@model UdemyEgitimPlatformu.ViewModel.CompositeViewModel
+
+@{
+    var logo = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "logo")?.Value;
+    var siteName = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "siteName")?.Value;
+    var siteDescription = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "siteDescription")?.Value;
+    var favicon = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "favicon")?.Value;
+    var siteurl = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "siteurl")?.Value;
+    var yonetimeposta = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "yonetimeposta")?.Value;
+    var header_menu_enable = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "header_menu_enable")?.Value;
+    var login_buttons_enable = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "login_buttons_enable")?.Value;
+
+
+}
+
+<!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] | Own Courses Your Education</title>
+    <title>@siteName | Own Courses Your Education</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="icon" type="image/png" href="@favicon">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/mainhome.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link rel="stylesheet" href="~/BidemyLearning.styles.css" asp-append-version="true" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
+    <div id="loading-screen-global">
+        <div class="spinner"></div>
+    </div>
     <header>
-
-
-
-
-
-        <div class="navbar navbar-expand-sm bg-white box-shadow p-3 mb-3">
+        <div class="navbar navbar-expand-sm bg-white box-shadow" style="padding: 0;">
             <div class="container-fluid container-fluid-center df-left">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="~/images/main/Bidemy.png" height="55px" />
+                    <img src="@logo" height="55px" />
                 </a>
-
-                <form class="d-none d-lg-flex w-40">
-                    <input class="form-control form-control-lg rounded-pill me-2 rounded ph-sm bg-gri" type="search" placeholder="Dilediğiniz şeyi arayın..." aria-label="Arama Kutusu" />
+                <div class="d-none d-lg-flex w-40">
+                    <form style="" class="form-control rounded-pill arama-form">
+                        <input class="form-control rounded-pill  ph-sm bg-gri search-in" type="search" placeholder="Dilediğiniz şeyi arayın..." aria-label="Arama Kutusu" style="    padding-left: 40px;" />
+                    <button class="btn rounded-pill search-ib" type="submit">
+                     <img src="~/icons/layout/search.svg" alt="Ara" width="20" height="30" />
+                    </button>
                 </form> 
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
                 </div>
-             
+                
+                @if (@header_menu_enable == "1")
+                {
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Kategoriler</a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                   
+                                    @foreach (var kategori in Model.CategoryViewModel.KategoriListGenel)
+                                    {
+                                        <li><a asp-controller="Home" asp-action="Category" asp-route-id="@kategori.Id" class="dropdown-item">@kategori.Name</a></li>
+                                    }
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-             
 
-                <div class="button_group d-none d-lg-flex login_buttons">
-                    <button class="btn btn-outline-primary btn-outline-custom me-lg-1 ">
-                        <img src="~/icons/layout/login.svg" alt="Giriş Yap" width="20" height="30" />
+
+                @if (login_buttons_enable == "1")
+                {
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <div class="button_group d-none d-lg-flex login_buttons">
+                            <a asp-controller="Account" asp-action="Login">
+
+                            <button class="btn btn-outline-primary btn-outline-custom me-lg-1 ">
+                           <img src="~/icons/layout/login.svg" alt="Giriş Yap" width="20" height="30" />
 
                         Oturum Aç
                      </button>
-
+                            </a>
+                            <a asp-controller="Account" asp-action="Register">
                     <button class="btn btn-outline-secondary btn-outline-custom register">
-                        <img src="~/icons/layout/register.svg" alt="Kayıt Ol" width="20" height="30" />
+                          <img src="~/icons/layout/register.svg" alt="Kayıt Ol" width="20" height="30" />
 
                         Kayıt Ol 
                    </button>
-                </div>
+                            </a>
+                        </div>
+                    }else
+                    {
+                        <div class="button_group d-none d-lg-flex login_buttons">
+                           
+                                <div class="dropdown d-none d-lg-flex">
+                                    <button class="btn btn-outline-primary btn-outline-custom dropdown-toggle" type="button" id="accountDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="~/icons/layout/user.svg" alt="Hesabım" width="20" height="30" />
+                                        Hesabım
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accountDropdown" >
+                                        <li><a asp-controller="Account" asp-action="Profil" class="dropdown-item">Profilim</a></li>
+                                        <li><a class="dropdown-item" href="#">Ayarlar</a></li>
+                                    <li><a class="dropdown-item" href="#">Derslerim</a></li>
+                                    <li><a class="dropdown-item" href="#">Eğitmenlik</a></li>
 
+                                        <li><hr class="dropdown-divider"></li>
+                                    <li style="display: flex;height: 100%;    margin-bottom: 5px;">
+                                        <form asp-action="Logout" asp-controller="Account" method="post" style="height: 100%;align-items: start;display: grid;align-content: center;">
+                                            <button type="submit" class="dropdown-item text-danger">
+                                                <img src="~/icons/layout/logout.svg" alt="Çıkış Yap" width="20" height="20" />
+                                                Çıkış Yap
+                                            </button>
+                                        </form>
+                                        </li>
+                                    </ul>
+                                </div>
+                         
+                        </div>
+                    }
+                }
                 
 
             </div>
         </div>
-
+      
        @*  <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
 
@@ -87,32 +155,41 @@
 
             </div>
         </nav> *@
+
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="container-fluid" style="margin: 0;
+    padding: 0;">
+        <main role="main" class="pb-3 maindivs">
             @RenderBody()
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
         <footer>
-            @if (ViewData["Settings"] != null)
-            {
-                <ul>
-                    @foreach (var item in ViewData["Settings"] as IEnumerable<UdemyEgitimPlatformu.Models.Settings>)
-                    {
-                        <li>@item.Name: @item.Description</li>
-                    }
-                </ul>
-            }
+            <span></span>
+
         </footer>
         <div class="container">
             &copy; 2024 - BidemyLearning - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+  <script>
+        window.addEventListener('load', () => {
+            const loadingScreen = document.getElementById('loading-screen-global');
+
+            loadingScreen.style.opacity = '0';
+            loadingScreen.style.visibility = 'hidden';
+
+            setTimeout(() => {
+                loadingScreen.style.display = 'none';
+            }, 400); 
+        });
+      </script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/home.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

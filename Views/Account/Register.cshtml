@@ -1,0 +1,84 @@
+﻿@model UdemyEgitimPlatformu.ViewModel.CompositeViewModel
+
+@{
+    ViewData["Title"] = "Register";
+  
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+    {
+        <div class="alert alert-danger">
+            @error.ErrorMessage
+        </div>
+    }
+}
+
+
+
+<div class="container-fluid" style="height:700px;">
+    <div class="row">
+<div class="w-50 h-3 d-none d-lg-flex left-image-panel">
+    <img src="~/images/account/desktop.webp" class="d-none d-lg-flex" height="500px;"/>
+</div>
+<div class="responsive-div">
+        <div class="w-100 register-panel p-3">
+            <h3>
+                Kaydolun ve öğrenmeye başlayın
+            </h3>
+
+                <form asp-action="Register" method="post" autocomplete="off">
+            @Html.AntiForgeryToken()
+
+            <div class="form-group">
+                <div class="form-floating">
+                    <input asp-for="RegisterViewModel.Email" type="email" class="form-control register-input" id="email" placeholder="Email" autocomplete="off" />
+                    <label for="email">E-Posta</label>
+                </div>
+                <span asp-validation-for="RegisterViewModel.Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <div class="form-floating">
+                    <input asp-for="RegisterViewModel.Password" type="password" class="form-control register-input" id="password" placeholder="Password" autocomplete="off" oninput="checkPasswordStrength()" />
+                    <label for="password">Şifreniz</label>
+                </div>
+                <span asp-validation-for="RegisterViewModel.Password" class="text-danger"></span>
+               
+            </div>
+
+            <div class="form-group">
+                <div class="form-floating">
+                    <input asp-for="RegisterViewModel.ConfirmPassword" type="password" class="form-control register-input" id="confirmPassword" placeholder="Confirm Password" autocomplete="off" />
+                    <label for="confirmPassword">Şifreyi Onaylayın</label>
+                </div>
+                <span asp-validation-for="RegisterViewModel.ConfirmPassword" class="text-danger"></span>
+            </div>
+                    <div class="progress password-strength-meter">
+                        <div id="password-strength-bar" class="progress-bar" role="progressbar" style="width: 0%"></div>
+                    </div>
+                    <small id="password-strength-text" class="form-text text-muted" style="margin-bottom:20px;"></small>
+            <div class="form-group">
+                <button type="submit" class="btn register-button">Kayıt Ol</button>
+            </div>
+        </form>
+
+
+        </div>
+        </div>
+</div>
+
+</div>
+
+

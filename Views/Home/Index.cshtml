@@ -1,8 +1,358 @@
-﻿@{
+﻿@model UdemyEgitimPlatformu.ViewModel.CompositeViewModel
+
+@{
+    var user = User.Identity.Name;
+
+    var sitename = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "siteName")?.Value;
+
+    var logo = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "logo")?.Value;
+    var defaultphoto = Model.CategoryViewModel.Ayarlar.FirstOrDefault(a => a.Name == "default_img")?.Value;
+
     ViewData["Title"] = "Home Page";
 }
+<div class="loading-screen" id="loadingScreen">
+    <img src="@logo" alt="Logo" class="loading-logo">
+</div>
+<div class="container d-none d-lg-block">
+<div class="row">
+        <div class="banner-main">
+            <div class="text-on-main">
+                <h3>Sizi anlayan öğrenim deneyimi</h3>
+                <span>
+                    Bugününüz (ve geleceğiniz) için yetkinlikler. Hemen platformumuzda öğrenmeye başlayın.
+
+                </span>
+            </div>
+
+
+        </div>
+</div>
+</div>
+
+<div class="bgpanel2-container mb-4">
+    <div class="bg-main-2">
+        <div class="row container-fluid-center text-conter p-4">
+
+            Dünyanın dört bir yanından 15.000'den fazla şirket ve milyonlarca öğrencinin güvendiği platform
+        </div>
+
+        <div class="brand-list">
+            <img src="~/icons/home/cisco_logo.svg" height="30px" />
+            <img src="~/icons/home/citi_logo.svg" height="30px" />
+            <img src="~/icons/home/ericsson_logo.svg" height="30px" />
+            <img src="~/icons/home/hewlett_packard_enterprise_logo.svg" height="30px" />
+            <img src="~/icons/home/procter_gamble_logo.svg" height="30px" />
+            <img src="~/icons/home/samsung_logo.svg" height="30px" />
+            <img src="~/icons/home/volkswagen_logo.svg" height="30px" />
+        </div>
+    </div>
+
+</div>
+
+
+@if (User.Identity.IsAuthenticated)
+{
+    
+
+    @if (Model.ApplicationUser.ProfilePictureUrl.Length < 2 || Model.ApplicationUser.FirstName.Length < 2)
+    {
+        <div class="container">
+            <div class="row">
+                <div class="hello-users gradient-border" style="display:flex;">
+                    <div class="profiles-m" style="width:15%;height:100%;">
+                        <img src="@defaultphoto" height="100px" width="100px" />
+                    </div>
+                    <div class="hello-texts" style="width:70%;height:100%;display:flex;">
+                        <div class="text-module">
+                            <span>Merhaba @sitename kullanıcısı! Seni aramızda görmek çok güzel! Profilinden bilgilerini güncellemeyi unutma. Adını ve profil fotoğrafını güncellediğinde, seni çok daha güzel fırsatlar karşılıyor olacak :)</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    }else
+    {
+        <div class="container">
+            <div class="row">
+                <div class="hello-users gradient-border" style="display:flex;">
+                    <div class="profiles-m" style="width:15%;height:100%;">
+                        <img src="@Model.ApplicationUser.ProfilePictureUrl" height="100px" width="100px" />
+                    </div>
+                    <div class="hello-texts" style="width:70%;height:100%;display:flex;">
+
+                        @if (!User.IsInRole("Admin") && !User.IsInRole("ContentCreator"))
+                        {
+                            <div class="text-module">
+                                <h3>Merhaba, @Model.ApplicationUser.FirstName</h3>
+                            </div>
+                            <div class="islemyap">
+                                <div class="button-module">
+
+                                    <a asp-controller="Account" asp-action="Videolarim">
+                                        <button type="button" class="btn btn-primary btn-lg">Videolarımı İzle</button>
+
+                                    </a>
+                                </div>
+                                <div class="button-module">
+                                    <a asp-controller="" asp-action="">
+                                        <button type="button" class="btn btn-primary btn-lg">İçerik Üreticisi Ol</button>
+
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                        else if (User.IsInRole("ContentCreator"))
+                        {
+                            <div class="text-module">
+                                <h3>Merhaba, @Model.ApplicationUser.FirstName</h3>
+                            </div>
+                            <div class="islemyap">
+                                <div class="button-module">
+
+                                    <a asp-controller="" asp-action="">
+                                        <button type="button" class="btn btn-primary btn-lg">Videolarını İzle</button>
+
+                                    </a>
+                                </div>
+                                <div class="button-module">
+                                    <a asp-controller="" asp-action="">
+                                        <button type="button" class="btn btn-primary btn-lg">Large button</button>
+
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                        else if (User.IsInRole("Admin"))
+                        {
+                            <div class="text-module">
+                                <h3>Merhaba, @Model.ApplicationUser.FirstName</h3>
+                            </div>
+                            <div class="islemyap">
+                                <div class="button-module">
+
+                                    <a asp-controller="" asp-action="">
+                                        <button type="button" class="btn btn-primary btn-lg">Videolarını İzle</button>
+
+                                    </a>
+                                </div>
+                                <div class="button-module">
+                                    <a asp-controller="" asp-action="">
+                                        <button type="button" class="btn btn-primary btn-lg">Large button</button>
+
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                        
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    }
+   
+}
+<div class="container" style="margin-top:30px;">
+<div class="row">
+    <div class="courses-main-tab">
+            <h2>Kapsamlı Kurs Seçkisi</h2>
+            <span>
+                Her ay yayınlanan yeni kurslarla 220.000 + online video kurs arasından seçiminizi yapın
+           </span>
+            <div class="carousel-container">
+                <button class="carousel-btn left" onclick="prevSlide()">&#10094;</button>
+                <div class="courses-videos">
+                    @foreach (var video in Model.Videolar) {
+                        <a asp-controller="Home" asp-action="Video" asp-route-id="@video.Id" style="text-decoration:none;" >
+                        <div class="video-card">
+                            <div class="video-img" style="background-image: url('/VideosImage/@video.img');"></div>
+                            <div class="video-content">
+                                <div class="video-title">@video.Name</div>
+                                <div class="video-description">@video.Description</div>
+                                <div class="rating">
+                                    @for (int i = 0; i < video.yildizortalamasi; i++)
+                                    {
+                                        <i class="fa fa-star active"></i>
+                                        
+                                    }
+                                    @for(int k = 5; k > video.yildizortalamasi; k--)
+                                    {
+                                        <i class="fa fa-star "></i>
+
+                                    }
+
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    }
+                   
+                </div>
+                <button class="carousel-btn right" onclick="nextSlide()">&#10095;</button>
+            </div>
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    const carousel = document.querySelector('.courses-videos');
+                    const videoCards = document.querySelectorAll('.video-card');
+                    let index = 0;
+
+                    if (!carousel || videoCards.length === 0) {
+                        console.error('Carousel container or video cards not found.');
+                        return;
+                    }
+
+                    function showSlide() {
+                        const videoWidth = videoCards[0].offsetWidth + 20; // width + margin
+                        const visibleVideos = Math.floor(carousel.parentElement.offsetWidth / videoWidth);
+                        const maxIndex = videoCards.length - visibleVideos;
+                        index = Math.max(0, Math.min(index, maxIndex)); // Ensure index is within bounds
+                        carousel.style.transform = `translateX(-${index * videoWidth}px)`;
+                    }
+
+                    window.nextSlide = function () {
+                        index++;
+                        showSlide();
+                    };
+
+                    window.prevSlide = function () {
+                        index--;
+                        showSlide();
+                    };
+
+                    document.querySelector('.carousel-btn.right').addEventListener('click', window.nextSlide);
+                    document.querySelector('.carousel-btn.left').addEventListener('click', window.prevSlide);
+
+                    setInterval(window.nextSlide, 2000); // Automatic slide every 2 seconds
+                    window.addEventListener('resize', showSlide); // Adjust on window resize
+
+                    showSlide(); // Initial call to position the slides correctly
+                });
+            </script>
+    </div>
+    
+</div>
+</div>
+
+
+
+
+
+
+
+
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
 </div>
+
+<div class="container">
+    <div class="row">
+        <div class="slider">
+            <div class="slides">
+                                <div class="slide">
+                    <img src="~/images/slider/1.png" alt="Görsel 1">
+                    <div class="overlay"></div>
+
+                    <button class="play-button" onclick="playSlide(1)">&#9654;</button>
+
+                </div>
+                                <div class="slide">
+                    <img src="~/images/slider/2.png" alt="Görsel ">
+                    <div class="overlay"></div>
+
+                    <button class="play-button" onclick="playSlide(1)">&#9654;</button>
+
+                </div>
+                                <div class="slide">
+                    <img src="~/images/slider/3.png" alt="Görsel ">
+                    <div class="overlay"></div>
+
+                    <button class="play-button" onclick="playSlide(1)">&#9654;</button>
+
+                </div>
+                <div class="slide">
+                    <img src="~/images/slider/4.png" alt="Görsel ">
+                    <div class="overlay"></div>
+
+                    <button class="play-button" onclick="playSlide(1)">&#9654;</button>
+
+                </div>
+                <div class="slide">
+
+                    <img src="~/images/slider/5.png" alt="Görsel ">
+                    <div class="overlay"></div>
+
+                    <button class="play-button" onclick="playSlide(1)">&#9654;</button>
+
+                </div>
+
+                <!-- Daha fazla görsel ekleyebilirsiniz -->
+            </div>
+            <button class="prev" onclick="showPrevSlide()">&#10094;</button>
+            <button class="next" onclick="showNextSlide()">&#10095;</button>
+        </div>
+        <div class="slider2">
+            <div class="slides2">
+                <div class="slide2">
+                    <img src="~/images/slider/3.png" alt="Görsel 1">
+                    <div class="overlay"></div>
+
+                    <button class="play-button" onclick="playSlide(1)">&#9654;</button>
+
+                </div>
+                <div class="slide2">
+                    <div class="overlay"></div>
+
+                    <button class="play-button" onclick="playSlide(1)">&#9654;</button>
+                    <img src="~/images/slider/2.png" alt="Görsel ">
+                   
+
+                </div>
+                <div class="slide2">
+                    <img src="~/images/slider/1.png" alt="Görsel ">
+                    <div class="overlay"></div>
+
+                    <button class="play-button" onclick="playSlide(1)">&#9654;</button>
+
+                </div>
+                <div class="slide2">
+                    <img src="~/images/slider/4.png" alt="Görsel ">
+                    <div class="overlay"></div>
+
+                    <button class="play-button" onclick="playSlide(1)">&#9654;</button>
+
+                </div>
+                <div class="slide2">
+                    <img src="~/images/slider/5.png" alt="Görsel ">
+                    <div class="overlay"></div>
+
+                    <button class="play-button" onclick="playSlide(1)">&#9654;</button>
+
+                </div>
+
+                <!-- Daha fazla görsel ekleyebilirsiniz -->
+            </div>
+            <button class="prev" onclick="showPrevSlide2()">&#10094;</button>
+            <button class="next" onclick="showNextSlide2()">&#10095;</button>
+        </div>
+    </div>
+</div>
+<script>
+    window.addEventListener('load', () => {
+        const loadingScreen = document.getElementById('loadingScreen');
+    
+
+ 
+
+
+        setTimeout(() => {
+            loadingScreen.classList.add('hidden');
+        }, 450);
+    });
+</script>

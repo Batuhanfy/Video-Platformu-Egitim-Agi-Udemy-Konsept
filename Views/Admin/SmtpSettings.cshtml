@@ -1,0 +1,75 @@
+﻿@model UdemyEgitimPlatformu.ViewModel.CompositeViewModel
+
+
+@{
+    ViewData["Title"] = "SMTP Ayarları";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<div class="container mt-5">
+    <table class="table table-0">
+
+        @if (TempData["success"] != null && TempData["success"].ToString() == "true")
+        {
+            <div class="alert alert-success">
+                @TempData["message"]
+            </div>
+        }
+        else if (TempData["success"] != null && TempData["success"].ToString() == "false")
+        {
+            <div class="alert alert-danger">
+                @TempData["message"]
+            </div>
+        }
+
+        <body>
+            @foreach(var smtp in Model.SmtpSettings){
+                <div class="form-container">
+                    <div class="header-section smtp-ust">
+                        <h3>SMTP Ayarları</h3>
+                        <span>Kullanıcılara E-Posta (Mail) gönderimi için gerekli Mail sunucusu ayarlarını buradan yapınız.</span>
+                        <span>Üye kayıt işlemi sırasında arkaplan işlemi olarak kullanıcıya hoşgeldiniz maili gönderir. Proje konsolundan hata mesajı varsa kontrol ediniz.</span>
+
+                    </div>
+                    <form asp-controller="Admin" asp-action="SmtpSettings" method="post" class="d-flex flex-column">
+                        <input type="hidden" name="id" value="@smtp.Id">
+
+                        <div class="form-group">
+                            <label for="host_@smtp.Id">Host</label>
+                            <input type="text" id="host_@smtp.Id" name="host" value="@smtp.Host" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="port_@smtp.Id">Port</label>
+                            <input type="text" id="port_@smtp.Id" name="port" value="@smtp.Port" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="username_@smtp.Id">Username</label>
+                            <input type="text" id="username_@smtp.Id" name="username" value="@smtp.Username" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password_@smtp.Id">Password</label>
+                            <input type="text" id="password_@smtp.Id" name="password" value="@smtp.Password" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="EnableSsl_@smtp.Id">Enable SSL</label>
+                            <input type="checkbox" id="EnableSsl_@smtp.Id" name="EnableSsl" @(smtp.EnableSsl ? "checked" : "")>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                    </form>
+                </div>
+
+            }
+
+
+
+        </body>
+    </table>
+</div>
+
+
+

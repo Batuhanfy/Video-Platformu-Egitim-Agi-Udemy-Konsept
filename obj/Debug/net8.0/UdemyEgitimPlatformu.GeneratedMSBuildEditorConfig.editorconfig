@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UdemyEgitimPlatformu
 build_property.RootNamespace = UdemyEgitimPlatformu
@@ -18,12 +26,76 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\LENOVO\source\repos\UdemyEgitimPlatformu\UdemyEgitimPlatformu\Bidemy-Learning
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Account/Profil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Account/Videolarim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWaWRlb2xhcmltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Account/VideoPlay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWaWRlb1BsYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Account/VideoyuEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWaWRlb3l1RWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Admin/GetSettings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2V0U2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Admin/SmtpSettings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU210cFNldHRpbmdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Home/Category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Home/Video.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWRlby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Settings1/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3MxXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Settings1/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3MxXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Settings1/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3MxXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Settings1/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3MxXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Settings1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3MxXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Shared/Error.cshtml]
@@ -41,6 +113,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Shared/_Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-jw3re54rdx
 
 [C:/Users/LENOVO/source/repos/UdemyEgitimPlatformu/UdemyEgitimPlatformu/Bidemy-Learning/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

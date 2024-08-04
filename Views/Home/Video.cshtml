@@ -1,0 +1,193 @@
+﻿
+
+@{
+    ViewData["Title"] = "Video";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var video_id = @Model.CategoryViewModel.videoIde;
+    var kategori_adi = @Model.CategoryViewModel.KategoriAdi;
+    var video_baslik = @Model.CategoryViewModel.VideoBaslik;
+    var video_aciklama = @Model.CategoryViewModel.VideoAciklama ;
+    var video_src = @Model.CategoryViewModel.VideoImgSrc;
+    var yildiz_sayisi = @Model.CategoryViewModel.YildizSayisi;
+    var videoadresi = @Model.CategoryViewModel.videovideoaddress;
+    var videoshortadresi = @Model.CategoryViewModel.videoshortadress;
+    var video_author = @Model.CategoryViewModel.videoauthor;
+
+
+
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="bg-1">
+            <div class="video-bilgi w-100 mx-auto p-5 w-50" style="padding-top: 20px!important;">
+               <div class="main-templates w-50">
+                    <span class="category">@kategori_adi</span>
+
+                    <h1 class="title">@video_baslik</h1>
+                    <span class="description text-white">@video_aciklama
+                    </span>
+                   
+
+                    <span class="yildiz pt-2">
+                        <div class="yildiz-text " style="margin-right: 5px;">@yildiz_sayisi </div>
+                        <span class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </span>
+
+                        <script>
+                            function setRating(rating) {
+                                const stars = document.querySelectorAll('.rating .fa-star');
+                                const fullStars = Math.floor(rating);
+                                const halfStar = rating % 1 >= 0.5;
+                                const totalStars = stars.length;
+
+                                stars.forEach((star, index) => {
+                                    if (index < fullStars) {
+                                        star.classList.add('active');
+                                    } else if (index === fullStars && halfStar) {
+                                        star.classList.add('active');
+                                        star.classList.add('half');
+                                    } else {
+                                        star.classList.remove('active');
+                                    }
+                                });
+                            }
+
+                            const rating = @yildiz_sayisi;
+                            setRating(rating);
+                        </script>
+                        </span>
+
+
+                    <span class="description text-white" style="font-weight: 600;">
+                        Oluşturan: @video_author
+                    </span>
+                </div>
+
+          
+
+                <div id="video-player" class="video-player">
+                    <div class="arkaplan-video"></div>
+                    <video controls>
+                        <source src="~/videos/@videoshortadresi" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <button class="close-button" onclick="hideVideoPlayer()">&times;</button>
+                </div>
+                <div class="video-template w-30">
+                    <h1 class="video_img">
+                        <div class="overlay">
+                            <button class="play-button" onclick="playVideo();">
+                                <i class="fas fa-play"></i> 
+                            </button>
+                        </div>
+                        <img src="~/VideosImage/@video_src" />
+                        </h1>
+                        <div class="video-sub2">
+                    <span class="description-ex text-dark">
+                        Bidemy'nin en popüler kurslarına abone olun
+                        Kişisel Plan ile bu kursa ve en yüksek puan alan 1.000+ kursumuza erişin.
+                          @if (!User.Identity.IsAuthenticated)
+                            {
+                                <button class="mx-auto planner-button text-white">
+                                    Kişisel Planımızı Deneyin 
+                                </button>
+                            }
+                            else
+                            {
+                                <form asp-controller="Account" asp-action="VideoyuEkle" method="post" class="d-flex justify-content-center">
+      
+                                    <input type="hidden" name="videoid" value="@video_id">
+
+                                    <button type="submit" class="btn btn-primary mx-auto planner-button text-white">
+                                        Bu Videoyu Hesabına Ekle
+                                    </button>
+                                </form>
+                            }
+                        </span>
+                    
+                    </div>
+                </div>
+
+                    
+                
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<div class="related-posts">
+    <div class="explore-konu">
+        <span> İlgili Konuları Keşfedin</span>
+        <ul class="relateds">
+            <li>Python</li>
+            <li>Veri Güvenliği</li>
+            <li>Analiz</li>
+        </ul>
+    </div>
+</div>
+<div class="view-description-detail">
+    <div class="detail-1">
+        <span>Öğrenecekleriniz</span>
+        <ul class="icerik">
+            <li><i class="fa fa-check"></i> Hiçbir programlama bilgisi olmadan programlamaya giriş yapacaksınız</li>
+            <li><i class="fa fa-check"></i> Python, JAVA ve C# ile veri tabanı programlama yapacaksınız.</li>
+            <li><i class="fa fa-check"></i> Analizler yapabileceksiniz</li>
+            <li><i class="fa fa-check"></i> Hiçbir programlama bilgisi olmadan programlamaya giriş yapacaksınız</li>
+            <li><i class="fa fa-check"></i> Python, JAVA ve C# ile veri tabanı programlama yapacaksınız.</li>
+            <li><i class="fa fa-check"></i> Analizler yapabileceksiniz</li>
+            <li><i class="fa fa-check"></i> Hiçbir programlama bilgisi olmadan programlamaya giriş yapacaksınız</li>
+            <li><i class="fa fa-check"></i> Python, JAVA ve C# ile veri tabanı programlama yapacaksınız.</li>
+            <li><i class="fa fa-check"></i> Analizler yapabileceksiniz</li>
+        </ul>
+    </div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

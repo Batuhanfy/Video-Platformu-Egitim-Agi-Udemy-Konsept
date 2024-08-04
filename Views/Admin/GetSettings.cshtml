@@ -1,4 +1,5 @@
-﻿@model UdemyEgitimPlatformu.ViewModel.CategoryViewModel
+﻿@model UdemyEgitimPlatformu.ViewModel.CompositeViewModel
+
 
 @{
     ViewData["Title"] = "Ayarlar";
@@ -6,7 +7,6 @@
 }
 
 <div class="container mt-5">
-    <h2 class="mb-4">Genel Ayarlar</h2>
     <table class="table table-0">
 
         @if (TempData["success"] != null && TempData["success"].ToString() == "true")
@@ -23,19 +23,32 @@
         }
 
         <body>
-            @foreach (var setting in Model.Ayarlar)
+       
+
+
+            @foreach (var setting in Model.CategoryViewModel.Ayarlar)
             {
                 switch (setting.Id)
                 {
                     case 1003:
                     <tr>
-                        <td>Site başlığı</td>
                         <td>
-                            <form asp-controller="Admin" asp-action="Guncelle" method="post" class="d-flex align-items-center">
-                                <input type="hidden" name="Id" value="@setting.Id">
-                                <input type="text" name="value" asp-for="@setting.Value" class="form-control me-2" required>
-                                <button type="submit" class="btn btn-primary">Kaydet</button>
-                            </form>
+                            <div class="form-container">
+                                <h3>Site Adı</h3>
+                                <span>Text Metni</span>
+
+                                <form asp-controller="Admin" asp-action="Guncelle" method="post" class="d-flex flex-column">
+                                    <input type="hidden" name="Id" value="@setting.Id">
+
+                                    <div class="form-group">
+                                        <label for="value_@setting.Id"></label>
+                                        <input type="text" id="value_@setting.Id" name="value" asp-for="@setting.Value" class="form-control" required>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                                </form>
+                            </div>
+
                         </td>
                     </tr>
 
@@ -43,70 +56,71 @@
 
                     case 1004:
                     <tr>
-                        <td>Slogan</td>
                         <td>
-                            <form asp-controller="Admin" asp-action="Guncelle" method="post" class="d-flex align-items-center">
-                                <input type="hidden" name="Id" value="@setting.Id">
-                                <input type="text" name="value" asp-for="@setting.Value" class="form-control me-2" required>
-                                <button type="submit" class="btn btn-primary">Kaydet</button>
-                            </form>
+                            <div class="form-container">
+                                <h3>Slogan Metni</h3>
+                                <span>SEO Kriteri açısından uzunluğa dikkat ederek slogan metninizi belirleyiniz.</span>
+
+                                <form asp-controller="Admin" asp-action="Guncelle" method="post" class="d-flex flex-column">
+                                    <input type="hidden" name="Id" value="@setting.Id">
+
+                                    <div class="form-group">
+                                        <input type="text" id="value_@setting.Id" name="value" asp-for="@setting.Value" class="form-control" required>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                                </form>
+                            </div>
+
                         </td>
                     </tr>
                         break;
 
                     case 1:
                     <tr>
-                        <td>Logo</td>
                         <td>
-                            <form asp-controller="Admin" asp-action="Guncelle" method="post" class="d-flex align-items-center">
-                                <input type="hidden" name="Id" value="@setting.Id">
-                                <img src="@setting.Value" height="40px" />
-                                <input type="text" name="value" asp-for="@setting.Value" class="form-control me-2" required>
-                                <button type="submit" class="btn btn-primary">Kaydet</button>
-                            </form>
+                            <div class="form-container">
+                                <h3>Logo</h3>
+                                <span>(wwwroot/ Altında istediğiniz klasöre görseli ekleyip buradan linkini çağırabilirsiniz.)</span>
+
+                                <form asp-controller="Admin" asp-action="Guncelle" method="post" class="d-flex flex-column">
+                                    <input type="hidden" name="Id" value="@setting.Id">
+
+                                    <div class="form-group">
+                                        <input type="text" id="value_@setting.Id" name="value" asp-for="@setting.Value" class="form-control" required>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                                </form>
+                            </div>
+
                         </td>
                     </tr>
                         break;
                     case 1005:
                     <tr>
-                        <td>Favicon</td>
                         <td>
-                            <form asp-controller="Admin" asp-action="Guncelle" method="post" class="d-flex align-items-center">
-                                <input type="hidden" name="Id" value="@setting.Id">
-                                <img src="@setting.Value" height="20px" />
-                                <input type="text" name="value" asp-for="@setting.Value" class="form-control me-2" required>
-                                <button type="submit" class="btn btn-primary">Kaydet</button>
-                            </form>
+                            <div class="form-container">
+                                <h3>Favicon</h3>
+                                <span>(wwwroot/ Altında istediğiniz klasöre görseli ekleyip buradan linkini çağırabilirsiniz.)</span>
+
+                                <form asp-controller="Admin" asp-action="Guncelle" method="post" class="d-flex flex-column">
+                                    <input type="hidden" name="Id" value="@setting.Id">
+
+                                    <div class="form-group">
+                                        <input type="text" id="value_@setting.Id" name="value" asp-for="@setting.Value" class="form-control" required>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                                </form>
+                            </div>
+
                         </td>
                     </tr>
                         break;
                    
-                    case 1006:
-                    <tr>
-                        <td>Site adresi (URL)</td>
-                        <td>
-                            <form asp-controller="Admin" asp-action="Guncelle" method="post" class="d-flex align-items-center">
-                                <input type="hidden" name="Id" value="@setting.Id">
-                                <input type="text" name="value" asp-for="@setting.Value" class="form-control me-2" required>
-                                <button type="submit" class="btn btn-primary">Kaydet</button>
-                            </form>
-                        </td>
-                    </tr>
-                        break;
-
-                    case 1007:
-                    <tr>
-                        <td>Yönetici E-Posta</td>
-                        <td>
-                            <form asp-controller="Admin" asp-action="Guncelle" method="post" class="d-flex align-items-center">
-                                <input type="hidden" name="Id" value="@setting.Id">
-                                <input type="text" name="value" asp-for="@setting.Value" class="form-control me-2" required>
-                                <button type="submit" class="btn btn-primary">Kaydet</button>
-                            </form>
-                        </td>
-                    </tr>
-                        break;
-
+                 
+                       
                     default:
 
 
@@ -116,25 +130,9 @@
             }
          
       
-            <!-- İstediğiniz kadar satır ekleyebilirsiniz -->
         </body>
     </table>
 </div>
 
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
-<h1>Burada ayarlar yer alacak</h1>
+
 

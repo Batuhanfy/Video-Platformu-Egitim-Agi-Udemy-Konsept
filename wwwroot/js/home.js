@@ -21,8 +21,13 @@ function showPrevSlide() {
 }
 
 
+function playVideo() {
+    document.getElementById('video-player').style.display = 'block';
+}
+function hideVideoPlayer() {
+    document.getElementById('video-player').style.display = 'none';
 
-
+}
 
 let currentIndex2= 0;
 

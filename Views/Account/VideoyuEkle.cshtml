@@ -1,0 +1,90 @@
+﻿@model UdemyEgitimPlatformu.ViewModel.CompositeViewModel
+<style>
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+        .table thead {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+            .table thead th {
+                padding: 12px 15px;
+                text-align: left;
+            }
+
+        .table tbody tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #fff;
+        }
+
+        .table tbody td {
+            padding: 12px 15px;
+            text-align: left;
+            color: #333;
+        }
+
+        .table tbody tr:hover {
+            background-color: #e9ecef;
+        }
+</style>
+
+<div class="container" style="margin-top:25px;">
+    <div class="row">
+ 
+    </div>
+</div>
+
+<div class="container" style="margin-top:25px;">
+    <div class="row">
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+            <span>Video Adı:  @TempData["VideoName"]</span>
+
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+       
+<h4>Hesabınıza Kayıtlı Videolarınız</h4>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Video ID</th>
+            <th>Kullanıcı Adı</th>
+            <th>Video Adı</th>
+            <th>Tarih</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var video in Model.AlinanVideolarList)
+        {
+            <tr>
+                <td>@video.VideoId</td>
+                <td>@video.Username</td>
+                <td>@video.VideoName</td>
+                <td>@video.Tarih</td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
+</div>

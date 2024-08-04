@@ -1,0 +1,67 @@
+﻿@model UdemyEgitimPlatformu.ViewModel.CompositeViewModel
+
+@{
+    var video = Model.Videolar?.FirstOrDefault();
+}
+
+<div class="container" style="padding:30px;">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            @if (video != null)
+            {
+                <div class="video-container text-center mb-4">
+                    <video width="100%" controls>
+                        <source src="~/videos/@video.videoaddress" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="video-info text-center">
+                    <h2>@video.Name</h2>
+
+                    <div class="star-rating">
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            <span class="star @(i <= video.yildizortalamasi ? "filled" : "")">&#9733;</span>
+                        }
+                    </div>
+
+                    <p class="text-muted">Video Sahibi: @video.Author</p>
+                    <p>@video.Description</p>
+                </div>
+            }
+            else
+            {
+                <p>Video bulunamadı.</p>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .video-container {
+        margin-bottom: 20px;
+    }
+
+    .star-rating {
+        font-size: 24px;
+        color: #f39c12;
+    }
+
+    .star {
+        margin: 0 2px;
+        color: #ccc;
+    }
+
+        .star.filled {
+            color: #f39c12;
+        }
+
+    .video-info h2 {
+        margin-bottom: 10px;
+    }
+
+    .video-info p {
+        margin: 5px 0;
+    }
+</style>
