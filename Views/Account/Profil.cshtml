@@ -1,0 +1,106 @@
+﻿@model UdemyEgitimPlatformu.ViewModel.CompositeViewModel
+@{
+    ViewData["Title"] = "Profil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="main-tabs p-4">
+            <div class="tabs1 profile-1">
+
+                @if (!string.IsNullOrEmpty(Model.ApplicationUser.ProfilePictureUrl))
+                {
+                    <img src="@Model.ApplicationUser.ProfilePictureUrl" height="100px" />
+                }
+                else
+                {
+                    <img src="~/images/account/man.png" height="100px" />
+                }
+
+                <span>Merhabalar,</span>
+                <span style="font-weight:500;">@Model.Username</span>
+            </div>
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["message"]
+                </div>
+            }
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger">
+                    @TempData["message"]
+                </div>
+            }
+
+                <div class="tabs1 p-4">
+
+                <form asp-controller="Account" asp-action="Profil" method="post" class="d-flex flex-column ayarlar-tables">
+                    <div class="section-t1">
+                        <input type="hidden" asp-for="Username" />
+
+                        <div class="form-group">
+                            <label asp-for="ApplicationUser.FirstName"></label>
+                            <input asp-for="ApplicationUser.FirstName" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="ApplicationUser.LastName"></label>
+                            <input asp-for="ApplicationUser.LastName" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="ApplicationUser.DateOfBirth"></label>
+                            <input asp-for="ApplicationUser.DateOfBirth" type="date" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Profil Resmi Yükle</label>
+                            <input type="file" name="ProfilePicture" class="form-control" />
+                        </div>
+                </div>
+                <div class="section-t1">
+                        <div class="form-group">
+                            <label asp-for="ApplicationUser.Address"></label>
+                            <input asp-for="ApplicationUser.Address" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="ApplicationUser.City"></label>
+                            <input asp-for="ApplicationUser.City" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="ApplicationUser.Country"></label>
+                            <input asp-for="ApplicationUser.Country" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="ApplicationUser.PostalCode"></label>
+                            <input asp-for="ApplicationUser.PostalCode" class="form-control" />
+                        </div>
+                       
+                     </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Güncelle</button>
+                    </div>
+
+                    </form>
+
+               
+               
+                    
+              
+
+
+            
+
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
