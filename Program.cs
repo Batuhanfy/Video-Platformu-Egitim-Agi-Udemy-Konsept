@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using UdemyEgitimPlatformu.Data;
 using UdemyEgitimPlatformu.Models;
+using UdemyEgitimPlatformu.Services;
 
 namespace BidemyLearning
 {
@@ -23,13 +24,22 @@ namespace BidemyLearning
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-            // Add services to the container.
+            builder.Services.AddSingleton<IBackgroundTaskQueue, BackgroundTaskQueue>();
+            builder.Services.AddHostedService<BackgroundWorker>();
+
+
+            builder.Services.AddScoped<SmtpSettings>(provider =>
+            {
+                var dbContext = provider.GetService<ApplicationDbContext>();
+                return dbContext?.SmtpSettings.FirstOrDefault() ?? new SmtpSettings(); // Default deðer ile boþ kontrolü
+            });
+            builder.Services.AddScoped<IEmailService, EmailService>();
+
             builder.Services.AddControllersWithViews();
             builder.Services.AddRazorPages();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
