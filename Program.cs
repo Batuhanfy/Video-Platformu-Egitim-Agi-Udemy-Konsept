@@ -18,6 +18,8 @@ namespace BidemyLearning
             builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
+            builder.Services.AddSignalR();
+
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
@@ -50,14 +52,17 @@ namespace BidemyLearning
 
             app.UseRouting();
 
-            app.UseAuthentication(); 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
-            app.MapRazorPages(); 
+            app.MapRazorPages();
+
+
+            app.MapHub<OnlineUsersHub>("/onlineUsersHub");
 
             app.Run();
         }
@@ -69,8 +74,8 @@ namespace BidemyLearning
                 var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
                 var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
 
-              // rollerim
-              // normal kullanýcý, içerik üretici ve admin
+                // rollerim
+                // normal kullanýcý, içerik üretici ve admin
                 string[] roleNames = { "NormalUser", "ContentCreator", "Admin" };
                 IdentityResult roleResult;
 
