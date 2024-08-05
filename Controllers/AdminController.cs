@@ -45,6 +45,60 @@ namespace UdemyEgitimPlatformu.Controllers
 
         }
 
+
+        public async Task<IActionResult> Menuler()
+        {
+            var KategoriListGenel = _context.Kategoriler.ToList();
+            var Settings_Ayarlar = _context.Settings.ToList();
+
+
+
+
+
+            var menuler = await _context.Menuler.ToListAsync();
+            var kategoriler = await _context.Kategoriler.ToListAsync();
+
+            var viewModel = new CompositeViewModel
+            {
+                CategoryViewModel = new CategoryViewModel
+                {
+                    KategoriListGenel = KategoriListGenel,
+                    Ayarlar = Settings_Ayarlar,
+                },
+                Menuler = menuler,
+                KategorilerList = kategoriler
+            };
+
+            return View(viewModel);
+        }
+
+
+
+        [HttpPost]
+        public IActionResult Update(CompositeViewModel model)
+        {
+            
+                foreach (var menu in model.Menuler)
+                {
+                    var existingMenu = _context.Menuler.FirstOrDefault(m => m.Id == menu.Id);
+                    if (existingMenu != null)
+                    {
+                        existingMenu.CategoryId = menu.CategoryId;
+                        existingMenu.Name = menu.Name;
+                        existingMenu.Description = menu.Description;
+                        existingMenu.IsEnable = menu.IsEnable;
+                    }
+                }
+
+                _context.SaveChanges();
+                TempData["success"] = "true";
+                TempData["message"] = "Menüler başarıyla güncellendi.";
+            
+           
+
+            return RedirectToAction("Menuler");
+        }
+
         public ActionResult GetSettings()
         {
             var KategoriListGenel = _context.Kategoriler.ToList();
@@ -63,6 +117,8 @@ namespace UdemyEgitimPlatformu.Controllers
 
             return View(BirlestirilmisViewModel);
         }
+
+
         [HttpPost]
         public IActionResult SmtpSettings(int id, string host,string username,string password,int port,bool EnableSsl)
         {

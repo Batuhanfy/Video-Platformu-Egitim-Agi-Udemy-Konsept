@@ -2,8 +2,16 @@
 @{
     ViewData["Title"] = "Anasayfa";
     Layout = "~/Views/Shared/_Admin.cshtml";
+    var successMessage = TempData["SuccessMessage"] as string;
+    var errorMessage = TempData["ErrorMessage"] as string;
 }
 
-<h1>Index</h1>
+@if (!string.IsNullOrEmpty(successMessage))
+{
+    <div class="alert alert-success">@successMessage</div>
+}
 
-
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger">@errorMessage</div>
+}

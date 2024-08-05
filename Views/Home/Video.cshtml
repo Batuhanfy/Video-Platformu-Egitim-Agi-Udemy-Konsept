@@ -1,4 +1,5 @@
-﻿
+﻿@model UdemyEgitimPlatformu.ViewModel.CompositeViewModel
+
 
 @{
     ViewData["Title"] = "Video";
@@ -96,19 +97,35 @@
                           @if (!User.Identity.IsAuthenticated)
                             {
                                 <button class="mx-auto planner-button text-white">
-                                    Kişisel Planımızı Deneyin 
+                                   Üye Girişi Yaparak Videoyu İzlemeye Başla! 
                                 </button>
                             }
                             else
-                            {
-                                <form asp-controller="Account" asp-action="VideoyuEkle" method="post" class="d-flex justify-content-center">
-      
-                                    <input type="hidden" name="videoid" value="@video_id">
+                            {           
 
-                                    <button type="submit" class="btn btn-primary mx-auto planner-button text-white">
-                                        Bu Videoyu Hesabına Ekle
-                                    </button>
-                                </form>
+                                @if (Model.CategoryViewModel.IsVideoInUserList)
+                                {
+                                    <form asp-controller="Account" asp-action="Videolarim" method="get" class="d-flex justify-content-center hesaba-ekle">
+
+                                        <input type="hidden" name="videoid" value="@video_id">
+
+                                        <button type="submit" class="btn btn-primary mx-auto planner-button text-white">
+                                            Bu Video Hesabınızda Mevcut
+                                        </button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <form asp-controller="Account" asp-action="VideoyuEkle" method="post" class="d-flex justify-content-center hesaba-ekle">
+
+                                        <input type="hidden" name="videoid" value="@video_id">
+
+                                        <button type="submit" class="btn btn-primary mx-auto planner-button text-white">
+                                            Bu Videoyu Hesabına Ekle
+                                        </button>
+                                    </form>
+                                }
+                               
                             }
                         </span>
                     
@@ -133,22 +150,24 @@
         </ul>
     </div>
 </div>
+@if (Model.CategoryViewModel.VideoContentList != null)
+ {
 <div class="view-description-detail">
     <div class="detail-1">
         <span>Öğrenecekleriniz</span>
         <ul class="icerik">
-            <li><i class="fa fa-check"></i> Hiçbir programlama bilgisi olmadan programlamaya giriş yapacaksınız</li>
-            <li><i class="fa fa-check"></i> Python, JAVA ve C# ile veri tabanı programlama yapacaksınız.</li>
-            <li><i class="fa fa-check"></i> Analizler yapabileceksiniz</li>
-            <li><i class="fa fa-check"></i> Hiçbir programlama bilgisi olmadan programlamaya giriş yapacaksınız</li>
-            <li><i class="fa fa-check"></i> Python, JAVA ve C# ile veri tabanı programlama yapacaksınız.</li>
-            <li><i class="fa fa-check"></i> Analizler yapabileceksiniz</li>
-            <li><i class="fa fa-check"></i> Hiçbir programlama bilgisi olmadan programlamaya giriş yapacaksınız</li>
-            <li><i class="fa fa-check"></i> Python, JAVA ve C# ile veri tabanı programlama yapacaksınız.</li>
-            <li><i class="fa fa-check"></i> Analizler yapabileceksiniz</li>
+            
+                
+            
+            @foreach (var item in Model.CategoryViewModel.VideoContentList)
+            {
+                <li><i class="fa fa-check"></i> @item</li>
+            }
+           
         </ul>
     </div>
 </div>
+}
 <br />
 <br />
 <br />

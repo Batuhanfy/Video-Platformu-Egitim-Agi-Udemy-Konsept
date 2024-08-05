@@ -5,20 +5,57 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Category</h1>
 
-<h2>Kategori Listesi 1</h2>
+
 <ul>
-    @foreach (var kategori in Model.CategoryViewModel.KategoriListID)
-    {
-        <li>@kategori.Name</li>
-    }
+    <div class="container" style="margin-top:30px;">
+<div action="row" class="videolar-listing-main-tab">
+            <div class="category-1"><h2>Kategori Video Listesi</h2></div>
+    <div class="videos-categorys">
+               
+                
+
+            @foreach (var video in Model.Videolar)
+            {
+        <li>
+            <a asp-controller="Home" asp-action="Video" asp-route-id="@video.Id" style="text-decoration:none;">
+                <div class="video-card">
+                    <div class="video-img" style="background-image: url('/VideosImage/@video.img');"></div>
+                    <div class="video-content">
+                        <div class="video-title">@video.Name</div>
+                        <div class="video-description">@video.Description</div>
+                        <div class="rating">
+                                    @for (int i = 0; i < video.yildizortalamasi; i++)
+                                    {
+                                <i class="fa fa-star active"></i>
+
+                                    }
+                                    @for (int k = 5; k > video.yildizortalamasi; k--)
+                                    {
+                                <i class="fa fa-star "></i>
+
+                                    }
+
+                        </div>
+                    </div>
+                </div>
+
+            </a>
+
+        </li>
+
+                @*
+    <li>@video.Author</li>
+    <li>@video.img</li>
+    <li>@video.yildizortalamasi</li>
+    <li>@video.songuncelleme</li> *@
+
+
+            }
+    </div>
+</div>
+</div>
+      
+    
 </ul>
 
-<h2>Kategori Listesi 2</h2>
-<ul>
-    @foreach (var kategori in Model.CategoryViewModel.KategoriListGenel)
-    {
-        <li>@kategori.Name</li>
-    }
-</ul>

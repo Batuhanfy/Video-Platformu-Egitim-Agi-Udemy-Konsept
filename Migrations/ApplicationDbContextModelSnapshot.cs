@@ -22,6 +22,41 @@ namespace UdemyEgitimPlatformu.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("ApplicationRequest", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Comments")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("RequestDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("RequestType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ApplicationRequests");
+                });
+
             modelBuilder.Entity("ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
@@ -308,6 +343,35 @@ namespace UdemyEgitimPlatformu.Migrations
                     b.ToTable("Kategoriler");
                 });
 
+            modelBuilder.Entity("UdemyEgitimPlatformu.Models.Menuler", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsEnable")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("Menuler");
+                });
+
             modelBuilder.Entity("UdemyEgitimPlatformu.Models.Settings", b =>
                 {
                     b.Property<int>("Id")
@@ -379,6 +443,10 @@ namespace UdemyEgitimPlatformu.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("VideoContentList")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("img")
@@ -482,6 +550,17 @@ namespace UdemyEgitimPlatformu.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("UdemyEgitimPlatformu.Models.Menuler", b =>
+                {
+                    b.HasOne("UdemyEgitimPlatformu.Models.Kategoriler", "Category")
+                        .WithMany("Menuler")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
             modelBuilder.Entity("UdemyEgitimPlatformu.Models.Videolar", b =>
                 {
                     b.HasOne("UdemyEgitimPlatformu.Models.Kategoriler", "Category")
@@ -495,6 +574,8 @@ namespace UdemyEgitimPlatformu.Migrations
 
             modelBuilder.Entity("UdemyEgitimPlatformu.Models.Kategoriler", b =>
                 {
+                    b.Navigation("Menuler");
+
                     b.Navigation("Videolar");
                 });
 #pragma warning restore 612, 618

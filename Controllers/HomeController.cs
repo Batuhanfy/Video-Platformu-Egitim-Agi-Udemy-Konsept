@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Newtonsoft.Json;
 using UdemyEgitimPlatformu.Controllers;
 using UdemyEgitimPlatformu.Data;
 using UdemyEgitimPlatformu.Models;
@@ -44,13 +45,14 @@ namespace BidemyLearning.Controllers
 
             var video = _context.Videolar
                                    .Where(k => k.Id == id)
-                                   .Select(k => new { k.Author,k.videoaddress,k.videoshortadress,k.Id,k.Name ,k.Description,k.img,k.yildizortalamasi})
+                                   .Select(k => new { k.Author,k.VideoContentList,k.videoaddress,k.videoshortadress,k.Id,k.Name ,k.Description,k.img,k.yildizortalamasi})
                                    .FirstOrDefault();
 
             if (kategori == null)
             {
                 return NotFound();
             }
+
 
 
 
@@ -67,10 +69,23 @@ namespace BidemyLearning.Controllers
             }
             var Settings_Ayarlar = _context.Settings.ToList();
 
+            var user = _userManager.GetUserAsync(User).Result;
+
+            var userVideos = _context.AlinanVideolar
+                                     .Where(uv => uv.Username == user.UserName)
+                                     .Select(uv => uv.VideoId)
+                                     .ToList();
+
+            var IsVideoInUserList = false;
+            if (userVideos.Contains(id))
+            {
+                ViewData["AlreadyInList"] = "Bu video zaten listenizde var.";
+                IsVideoInUserList = true;
+            }
+
 
             var BirlestirilmisViewModel1 = new CompositeViewModel
             {
-
                 CategoryViewModel = new CategoryViewModel
                 {
                     Videolar = VideoBilgisi,
@@ -84,7 +99,9 @@ namespace BidemyLearning.Controllers
                     videoIde = video.Id,
                     videovideoaddress = video.videoaddress,
                     videoshortadress = video.videoshortadress,
-                    videoauthor = video.Author
+                    videoauthor = video.Author,
+                    VideoContentList = JsonConvert.DeserializeObject<List<string>>(video.VideoContentList) ,
+                    IsVideoInUserList = IsVideoInUserList
                 }
             };
 
@@ -92,7 +109,31 @@ namespace BidemyLearning.Controllers
 
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Ara(string aramaifadesi)
+        {
+            var aramaifadesiLower = aramaifadesi.ToLower();
 
+            var videolar = await _context.Videolar
+                .Where(f => f.Name.ToLower().Contains(aramaifadesiLower))
+                .ToListAsync();
+
+            var Settings_Ayarlar = _context.Settings.ToList();
+
+            var KategoriListGenel = _context.Kategoriler.ToList();
+            var BirlestirilmisViewModel1 = new CompositeViewModel
+            {
+                Videolar = videolar,
+                CategoryViewModel = new CategoryViewModel
+                {
+                    KategoriListGenel = KategoriListGenel,
+                    Ayarlar = Settings_Ayarlar
+                }
+            };
+
+            return View(BirlestirilmisViewModel1);
+        }
         public IActionResult Category(int id)
         {
            
@@ -102,6 +143,10 @@ namespace BidemyLearning.Controllers
                                .Include(k => k.Videolar)
                                .Where(k => k.Id == id)
                                .ToList();
+
+            var VideolarKategorisi = KategoriListID[0];
+
+            var videolar = _context.Videolar.Where(f => f.CategoryId == id).ToList();
 
             var KategoriListGenel = _context.Kategoriler.ToList();
 
@@ -113,7 +158,7 @@ namespace BidemyLearning.Controllers
 
             var BirlestirilmisViewModel1 = new CompositeViewModel
             {
-
+                Videolar = videolar,
                 CategoryViewModel = new CategoryViewModel
                 {
                     KategoriListID = KategoriListID,
@@ -125,6 +170,66 @@ namespace BidemyLearning.Controllers
             return View(BirlestirilmisViewModel1);
 
 
+
+        }
+
+
+
+            public async Task<IActionResult> SSS()
+        {
+            var Settings_Ayarlar = _context.Settings.ToList();
+            var KategoriListGenel = _context.Kategoriler.ToList();
+
+            var BirlestirilmisViewModel1 = new CompositeViewModel
+            {
+               
+                CategoryViewModel = new CategoryViewModel
+                {
+            
+                    KategoriListGenel = KategoriListGenel,
+                    Ayarlar = Settings_Ayarlar
+                }
+            };
+
+            return View(BirlestirilmisViewModel1);
+
+        }
+        public async Task<IActionResult> Destek()
+        {
+            var Settings_Ayarlar = _context.Settings.ToList();
+            var KategoriListGenel = _context.Kategoriler.ToList();
+
+            var BirlestirilmisViewModel1 = new CompositeViewModel
+            {
+
+                CategoryViewModel = new CategoryViewModel
+                {
+
+                    KategoriListGenel = KategoriListGenel,
+                    Ayarlar = Settings_Ayarlar
+                }
+            };
+
+            return View(BirlestirilmisViewModel1);
+
+        }
+        public async Task<IActionResult> Help()
+        {
+            var Settings_Ayarlar = _context.Settings.ToList();
+            var KategoriListGenel = _context.Kategoriler.ToList();
+
+            var BirlestirilmisViewModel1 = new CompositeViewModel
+            {
+
+                CategoryViewModel = new CategoryViewModel
+                {
+
+                    KategoriListGenel = KategoriListGenel,
+                    Ayarlar = Settings_Ayarlar
+                }
+            };
+
+            return View(BirlestirilmisViewModel1);
 
         }
 
@@ -141,12 +246,14 @@ namespace BidemyLearning.Controllers
 
             var Videolar = _context.Videolar.ToList();
 
+            var menuler = _context.Menuler.ToList();
 
             var user = await _userManager.GetUserAsync(User);
 
             var BirlestirilmisViewModel = new CompositeViewModel
             {
                 Username = user?.UserName ?? "Anonim",
+                Menuler = menuler,
                 ApplicationUser = user != null ? new ApplicationUser
                 {
                     FirstName = user.FirstName,

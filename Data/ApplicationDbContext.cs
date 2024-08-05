@@ -16,9 +16,12 @@ namespace UdemyEgitimPlatformu.Data
 
         public DbSet<Settings> Settings { get; set; }
         public DbSet<Yorumlar> Yorumlar { get; set; }
+        public DbSet<Menuler> Menuler { get; set; }
+
         public DbSet<AlinanVideolar> AlinanVideolar { get; set; }
         public DbSet<Kategoriler> Kategoriler { get; set; }
         public DbSet<Videolar> Videolar { get; set; }
+        public DbSet<ApplicationRequest> ApplicationRequests { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -46,6 +49,11 @@ namespace UdemyEgitimPlatformu.Data
             builder.Entity<IdentityUserToken<string>>(entity => {
                 entity.ToTable("AspNetUserTokens");
             });
+
+            builder.Entity<Menuler>()
+          .HasOne(m => m.Category)
+          .WithMany(c => c.Menuler)
+          .HasForeignKey(m => m.CategoryId);
         }
     }
 }

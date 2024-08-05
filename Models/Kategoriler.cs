@@ -12,6 +12,7 @@ namespace UdemyEgitimPlatformu.Models
         public ICollection<Videolar>? Videolar { get; set; }
 
 
+        public ICollection<Menuler>? Menuler { get; set; }
 
     }
 }

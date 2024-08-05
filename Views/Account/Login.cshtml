@@ -26,11 +26,17 @@
     <div class="alert alert-danger">
         @TempData["ErrorMessage"]
     </div>
+    var i = 0;
     @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
     {
+        if (i > 1)
+        {
+            break;
+        }
         <div class="alert alert-danger">
             @error.ErrorMessage
         </div>
+        i += 1;
     }
 }
 
@@ -41,7 +47,7 @@
         <div class="w-50 h-3 d-none d-lg-flex left-image-panel">
             <img src="~/images/account/desktop.webp" class="d-none d-lg-flex" height="500px;" />
         </div>
-        <div class="responsive-div">
+        <div class="responsive-div" style="margin-top:20px;">
             <div class="w-100 register-panel p-3">
                 <h3>
                     <span>@siteName 'da Oturum Aç</span>

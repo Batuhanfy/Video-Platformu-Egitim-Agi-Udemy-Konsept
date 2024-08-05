@@ -389,11 +389,13 @@ label::after{
     flex-direction: column;
     align-items: center;
 }
-    .hello-texts {
-        width: 70%;
-        display: flex;
-        flex-direction: column;
-    }
+.hello-texts {
+    padding-left: 10px;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
 .profiles-m {
     width: 15%;
     height: 100%;
@@ -402,6 +404,7 @@ label::after{
         border-radius: 50px;
     }
 .text-module h3 {
+    font-size: 20px;
     font-weight: 300;
 }
 .text-module span {
@@ -410,7 +413,7 @@ label::after{
 }
 .text-module {
     font-family: 'DM Sans';
- 
+
 }
 .gradient-border {
     padding: 20px;
@@ -428,13 +431,14 @@ label::after{
     border: 5px solid #f8fbff;
 }
 .islemyap {
+    padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: nowrap;
-    flex-direction: column;
+    flex-direction: row;
 }
     .islemyap button {
-        font-size: 14px;
+        font-size: 12px;
     }
 .onayla-succ {
     height: 50px;
@@ -488,7 +492,7 @@ label::after{
         width: 32%;
     }
 .video-card-list {
-    height: 120px;
+    height: 145px;
     width: 95%;
     display: flex;
     margin: 10px;
@@ -513,4 +517,37 @@ label::after{
     font-family: Montserrat, sans-serif;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.online-user {
+    width: 150px;
+    margin: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+    .online-user img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+.online-kullanicilar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.online-user .user p{
+    width:50%;
+}
+.user {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#videoContentContainer .register-input {
+    margin-bottom:20px;
 }

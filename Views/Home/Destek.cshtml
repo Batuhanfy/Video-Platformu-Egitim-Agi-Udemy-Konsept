@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "Destek";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container support-section">
+    <h1 class="section-title">Destek Merkezi</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Destek Talepleri</h2>
+            <p>Bidemy platformunda yaşadığınız her türlü sorun veya sorularınız için destek ekibimize başvurabilirsiniz. Aşağıdaki formu doldurarak destek talebinizi iletebilir veya sorunlarınızı hızlı bir şekilde çözebilirsiniz.</p>
+
+            <h3>Destek Talep Formu ( Temsili )</h3>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Adınız</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-posta Adresiniz</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Konu</label>
+                    <input type="text" class="form-control" id="subject" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mesajınız</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Gönder</button>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <h2>Destek Kanalları</h2>
+            <p>Yardım ve destek almak için aşağıdaki kanalları kullanabilirsiniz:</p>
+            <ul>
+                <li><strong>Destek E-Posta Adresi:</strong> <a href="mailto:support@bidemy.com">support@bidemy.com</a></li>
+                <li><strong>Telefon Numarası:</strong> +90 123 456 78 90</li>
+                <li><strong>Canlı Sohbet:</strong> Web sitemizde bulunan canlı sohbet özelliğini kullanarak anında destek alabilirsiniz.</li>
+                <li><strong>Toplantı Talebi:</strong> Destek ekibimizle birebir görüşme yapmak için <a href="#">bu bağlantıdan</a> toplantı talep edebilirsiniz.</li>
+            </ul>
+
+            <h2>Yardım Kılavuzları</h2>
+            <p>Geniş yardım kılavuzlarımız ve sıkça sorulan sorular dokümantasyonuna erişmek için <a href="#">bu bağlantıyı</a> ziyaret edebilirsiniz. Ayrıca, kullanıcı kılavuzları ve öğreticiler için <a href="#">bu sayfayı</a> kontrol edebilirsiniz.</p>
+        </div>
+    </div>
+</div>

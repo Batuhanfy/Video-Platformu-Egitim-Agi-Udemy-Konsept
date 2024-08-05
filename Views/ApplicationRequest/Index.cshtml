@@ -1,0 +1,38 @@
+﻿@model UdemyEgitimPlatformu.ViewModel.CompositeViewModel
+
+<div class="container mt-4">
+    <div class="row">
+        <table class="table" style="">
+            <thead>
+                <tr>
+                    <th>Kullanıcı Adı</th>
+                    <th>Başvuru Türü</th>
+                    <th>Başvuru Tarihi</th>
+                    <th>Durum</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var request in Model.ApplicationRequest)
+                {
+                    <tr>
+                        <td>@request.UserName</td>
+                        <td>@request.RequestType</td>
+                        <td>@request.RequestDate</td>
+                        <td>@(request.IsApproved ? "Onaylı" : "Onay Bekliyor")</td>
+                        <td>
+                            @if (!request.IsApproved)
+                            {
+                                <form asp-action="Approve" method="post" class="onayla-succ">
+                                    <input type="hidden" name="id" value="@request.Id" />
+                                    <button type="submit" class="btn btn-success">Onayla</button>
+                                </form>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>

@@ -17,6 +17,9 @@
         public string? videoaddress { get; set; }
         public string? videoshortadress { get; set; }
 
+        public string VideoContentList { get; set; }
+
+
         public Kategoriler? Category { get; set; }
     }
 }

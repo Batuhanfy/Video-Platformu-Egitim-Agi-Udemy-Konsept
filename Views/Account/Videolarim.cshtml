@@ -4,10 +4,17 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="container">
+<div class="container" style="margin-top:30px;">
     <div class="row">
         <h4>Hesabınıza Kayıtlı Videolarınız</h4>
+          @if (Model.AlinanVideolarList.Count == 0){
 
+                   <div class="no-result" style="width:100%;display:flex;"> 
+                        <img src="~/images/stickers/dance.png" height="150px;" />
+                        <H3>Henüz Listenize Video Eklemediniz</H3>
+                   </div>
+
+                }else {
         <table class="table">
             <thead>
                 <tr>
@@ -19,6 +26,7 @@
                 </tr>
             </thead>
             <tbody>
+             
                 @foreach (var video in Model.AlinanVideolarList)
                 {
                     <tr>
@@ -31,7 +39,9 @@
                         </td>
                     </tr>
                 }
+                
             </tbody>
         </table>
+        }
     </div>
 </div>

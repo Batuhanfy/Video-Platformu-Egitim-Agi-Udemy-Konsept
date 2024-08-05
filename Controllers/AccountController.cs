@@ -10,6 +10,7 @@ using UdemyEgitimPlatformu.ViewModels;
 using UdemyEgitimPlatformu.Services;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace UdemyEgitimPlatformu.Controllers
 {
@@ -114,7 +115,10 @@ namespace UdemyEgitimPlatformu.Controllers
             return View(BirlestirilmisViewModel);
         }
 
-        [HttpGet]
+       
+
+
+            [HttpGet]
         public async Task<IActionResult> Profil()
         {
           
@@ -282,8 +286,8 @@ namespace UdemyEgitimPlatformu.Controllers
             return View(BirlestirilmisViewModel);
         }
 
-
-        [HttpGet]
+      
+            [HttpGet]
         public async Task<IActionResult> Videolarim()
         {
             TempData["SuccessMessage"] = null;

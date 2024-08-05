@@ -28,6 +28,19 @@
         </div>
 </div>
 </div>
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
 
 <div class="bgpanel2-container mb-4">
     <div class="bg-main-2">
@@ -62,9 +75,9 @@
                     <div class="profiles-m" style="width:15%;height:100%;">
                         <img src="@defaultphoto" height="100px" width="100px" />
                     </div>
-                    <div class="hello-texts" style="width:70%;height:100%;display:flex;">
+                    <div class="hello-texts" >
                         <div class="text-module">
-                            <span>Merhaba @sitename kullanıcısı! Seni aramızda görmek çok güzel! Profilinden bilgilerini güncellemeyi unutma. Adını ve profil fotoğrafını güncellediğinde, seni çok daha güzel fırsatlar karşılıyor olacak :)</span>
+                            <span>Merhaba @sitename kullanıcısı! Profilinden bilgilerini güncellemeyi unutma. Adını ve profil fotoğrafını güncellediğinde, seni çok daha güzel fırsatlar karşılıyor olacak :)</span>
                         </div>
                     </div>
 
@@ -90,13 +103,13 @@
                                 <div class="button-module">
 
                                     <a asp-controller="Account" asp-action="Videolarim">
-                                        <button type="button" class="btn btn-primary btn-lg">Videolarımı İzle</button>
+                                        <button type="button" class="btn btn-primary btn-lg">Listendeki Videolar</button>
 
                                     </a>
                                 </div>
                                 <div class="button-module">
-                                    <a asp-controller="" asp-action="">
-                                        <button type="button" class="btn btn-primary btn-lg">İçerik Üreticisi Ol</button>
+                                    <a asp-controller="ApplicationRequest" asp-action="Create">
+                                        <button type="button" class="btn btn-primary btn-lg">İçerik Üreticisi Başvurusu Yap</button>
 
                                     </a>
                                 </div>
@@ -105,19 +118,19 @@
                         else if (User.IsInRole("ContentCreator"))
                         {
                             <div class="text-module">
-                                <h3>Merhaba, @Model.ApplicationUser.FirstName</h3>
+                                <h3>Merhaba Değerli İçerik Üreticimiz, @Model.ApplicationUser.FirstName</h3>
                             </div>
                             <div class="islemyap">
                                 <div class="button-module">
 
-                                    <a asp-controller="" asp-action="">
-                                        <button type="button" class="btn btn-primary btn-lg">Videolarını İzle</button>
+                                    <a asp-controller="Video" asp-action="Create">
+                                        <button type="button" class="btn btn-primary btn-lg">Yeni İçerik Yayınla</button>
 
                                     </a>
                                 </div>
                                 <div class="button-module">
-                                    <a asp-controller="" asp-action="">
-                                        <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                                    <a asp-controller="Account" asp-action="Videolarim">
+                                        <button type="button" class="btn btn-primary btn-lg">Listendeki Videolar</button>
 
                                     </a>
                                 </div>
@@ -126,19 +139,41 @@
                         else if (User.IsInRole("Admin"))
                         {
                             <div class="text-module">
-                                <h3>Merhaba, @Model.ApplicationUser.FirstName</h3>
+                                <h3>Merhaba değerli Yöneticimiz, @Model.ApplicationUser.FirstName</h3>
                             </div>
                             <div class="islemyap">
                                 <div class="button-module">
 
-                                    <a asp-controller="" asp-action="">
-                                        <button type="button" class="btn btn-primary btn-lg">Videolarını İzle</button>
+                                    <a asp-controller="Admin" asp-action="Index">
+                                       
+                                        <button type="button" class="btn bg-danger text-white  btn-lg">
+
+                                            Yönetici Paneli</button>
 
                                     </a>
                                 </div>
                                 <div class="button-module">
-                                    <a asp-controller="" asp-action="">
-                                        <button type="button" class="btn btn-primary btn-lg">Large button</button>
+
+                                    <a asp-controller="ApplicationRequest" asp-action="Index">
+                                        <button type="button" class="btn bg-warning btn-lg">
+
+                                            İçerik Yönetici Başvuruları</button>
+
+                                    </a>
+                                </div>
+                                <div class="button-module">
+                                    <a asp-controller="Account" asp-action="Videolarim">
+                                        <button type="button" class="btn bg-primary text-white  btn-lg">
+
+
+                                            Listendeki Videolar</button>
+
+                                    </a>
+                                </div>
+                                <div class="button-module">
+
+                                    <a asp-controller="Video" asp-action="Create">
+                                        <button type="button" class="btn btn-primary btn-lg">Yeni İçerik Yayınla</button>
 
                                     </a>
                                 </div>
@@ -157,8 +192,9 @@
    
 }
 <div class="container" style="margin-top:30px;">
-<div class="row">
-    <div class="courses-main-tab">
+
+   <div class="row">
+        <div class="courses-main-tab">
             <h2>Kapsamlı Kurs Seçkisi</h2>
             <span>
                 Her ay yayınlanan yeni kurslarla 220.000 + online video kurs arasından seçiminizi yapın
@@ -239,17 +275,65 @@
 
 
 
+@foreach (var menu in Model.Menuler)
+{
+    @if (!menu.IsEnable) { continue; }
+   
 
 
+<div class="container" style="margin-top:30px;">
 
+    <div class="row">
+        <div class="courses-main-tab">
+            <h2>@menu.Name</h2>
+            <span>
+                    @menu.Description
+                <div class="videos-category-list">
+                   @{
+                       int eachitem = 0;
+                    }
+                    @foreach (var video in Model.Videolar)
+                    {
+                            if(video.CategoryId != menu.CategoryId) { continue; }
+                            if(eachitem >6){ break; }
+                            <a asp-controller="Home" asp-action="Video" asp-route-id="@video.Id" style="text-decoration:none;">
+                            <div class="video-card-list">
+                                <div class="video-img-list" style="background-image: url('/VideosImage/@video.img');"></div>
+                                <div class="video-content-list">
+                                    <div class="video-title">@video.Name</div>
+                                    <div class="video-description">@video.Description</div>
+                                    <div class="rating">
+                                        @for (int i = 0; i < video.yildizortalamasi; i++)
+                                        {
+                                            <i class="fa fa-star active"></i>
 
+                                        }
+                                        @for (int k = 5; k > video.yildizortalamasi; k--)
+                                        {
+                                            <i class="fa fa-star "></i>
 
+                                        }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                            eachitem += 1;
+                        }
 
+                </div>
+            </div>
+           
+        
+
+    </div>
 </div>
+}
+
+
+
+
+
 
 <div class="container">
     <div class="row">

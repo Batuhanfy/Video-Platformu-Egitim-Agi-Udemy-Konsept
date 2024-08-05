@@ -14,7 +14,7 @@ namespace UdemyEgitimPlatformu.ViewModel
         public string VideoBaslik { get; set; }
         public string VideoAciklama { get; set; }
         public string VideoImgSrc { get; set; }
-
+        public bool IsVideoInUserList { get; set; }
         public double YildizSayisi { get; set; } = 0;
         public int videoIde { get; set; }
 
@@ -22,6 +22,7 @@ namespace UdemyEgitimPlatformu.ViewModel
         public string videoshortadress { get; set; }
         public string videoauthor { get; set; }
 
+        public List<string> VideoContentList { get; set; }
 
     }
 }

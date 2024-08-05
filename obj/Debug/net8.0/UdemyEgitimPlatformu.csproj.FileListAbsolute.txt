@@ -289,3 +289,4 @@ C:\Users\LENOVO\source\repos\UdemyEgitimPlatformu\UdemyEgitimPlatformu\Bidemy-Le
 C:\Users\LENOVO\source\repos\UdemyEgitimPlatformu\UdemyEgitimPlatformu\Bidemy-Learning\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\LENOVO\source\repos\UdemyEgitimPlatformu\UdemyEgitimPlatformu\Bidemy-Learning\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\LENOVO\source\repos\UdemyEgitimPlatformu\UdemyEgitimPlatformu\Bidemy-Learning\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\LENOVO\source\repos\UdemyEgitimPlatformu\UdemyEgitimPlatformu\Bidemy-Learning\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll

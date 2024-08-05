@@ -56,13 +56,12 @@
             </li>
             <ul class="dropdown-menu dropdown-menu-dark">
                 <li><a asp-controller="Home" asp-action="Index" class="dropdown-item" >Siteyi Görüntüle</a></li>
-                <li><a class="dropdown-item" href="#">Option 2</a></li>
-                <li><a class="dropdown-item" href="#">Option 3</a></li>
+
             </ul>
           </div>
 
 
-            <li class="nav-item">
+@*             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
@@ -73,7 +72,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
+            </li> *@
 
 
         </ul>
@@ -104,6 +103,13 @@
                                 <img src="~/icons/layout/admin/mail-pencil.svg" alt="Genel " width="20" height="30" class="mr-2" />
 
                                 Smtp Ayarları
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-controller="Admin" asp-action="Menuler">
+                                <img src="~/icons/layout/admin/mail-pencil.svg" alt="Menü " width="20" height="30" class="mr-2" />
+
+                               Menüler
                             </a>
                         </li>
                         <!-- Diğer menü öğeleri -->
