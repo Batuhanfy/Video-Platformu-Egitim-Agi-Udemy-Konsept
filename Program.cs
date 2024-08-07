@@ -1,6 +1,9 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using UdemyEgitimPlatformu.Data;
+using UdemyEgitimPlatformu.Email;
 using UdemyEgitimPlatformu.Models;
 using UdemyEgitimPlatformu.Services;
 
@@ -37,6 +40,10 @@ namespace BidemyLearning
             builder.Services.AddControllersWithViews();
             builder.Services.AddRazorPages();
 
+         
+
+            builder.Services.AddScoped<IEmailSender, EmailSender>();
+
             var app = builder.Build();
 
             CreateRolesAndAdminUser(app).Wait();
@@ -51,6 +58,8 @@ namespace BidemyLearning
             app.UseStaticFiles();
 
             app.UseRouting();
+
+
 
             app.UseAuthentication();
             app.UseAuthorization();
@@ -87,6 +96,10 @@ namespace BidemyLearning
                         roleResult = await roleManager.CreateAsync(new IdentityRole(roleName));
                     }
                 }
+
+
+              
+
 
                 //örnek user 
                 var user = await userManager.FindByEmailAsync("admin@example.com");

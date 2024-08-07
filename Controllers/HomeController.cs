@@ -69,20 +69,23 @@ namespace BidemyLearning.Controllers
             }
             var Settings_Ayarlar = _context.Settings.ToList();
 
-            var user = _userManager.GetUserAsync(User).Result;
-
-            var userVideos = _context.AlinanVideolar
-                                     .Where(uv => uv.Username == user.UserName)
-                                     .Select(uv => uv.VideoId)
-                                     .ToList();
-
             var IsVideoInUserList = false;
-            if (userVideos.Contains(id))
-            {
-                ViewData["AlreadyInList"] = "Bu video zaten listenizde var.";
-                IsVideoInUserList = true;
-            }
 
+            if(User.Identity.IsAuthenticated){
+                var user = _userManager.GetUserAsync(User).Result;
+
+                var userVideos = _context.AlinanVideolar
+                                         .Where(uv => uv.Username == user.UserName)
+                                         .Select(uv => uv.VideoId)
+                                         .ToList();
+
+               
+                if (userVideos.Contains(id))
+                {
+                    ViewData["AlreadyInList"] = "Bu video zaten listenizde var.";
+                    IsVideoInUserList = true;
+                }
+            }
 
             var BirlestirilmisViewModel1 = new CompositeViewModel
             {

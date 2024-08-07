@@ -4,7 +4,6 @@
     Layout = "~/Views/Shared/_Admin.cshtml";
 }
 
-<h1>Menuler</h1>
 
 @if (TempData["success"] != null && TempData["success"].ToString() == "true")
 {
@@ -19,8 +18,8 @@ else if (TempData["success"] != null && TempData["success"].ToString() == "false
     </div>
 }
 <div class="container" style="margin-top:20px;">
-    <div class="row">
-        <h2>Menüler</h2>
+    <div class="row" style="padding:30px;">
+        <h2>Anasayfa Menüleri</h2>
 
         <form asp-action="Update" method="post">
             @for (var i = 0; i < Model.Menuler.Count; i++)

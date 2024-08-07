@@ -20,16 +20,19 @@ namespace UdemyEgitimPlatformu.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly ApplicationDbContext _context;
-        private readonly IEmailService _emailService;
+        //private readonly IEmailService _emailService;
+        private readonly IEmailSender _emailSender;
 
-        public AccountController(IBackgroundTaskQueue taskQueue,UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, ApplicationDbContext context, IEmailService emailService)
+        public AccountController(IEmailSender emailSender, IBackgroundTaskQueue taskQueue,UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, ApplicationDbContext context, IEmailService emailService)
         {
             _taskQueue = taskQueue;
+
+            _emailSender = emailSender;
 
             _context = context;
             _userManager = userManager;
             _signInManager = signInManager;
-            _emailService = emailService;
+            //_emailService = emailService;
 
         }
 
@@ -70,18 +73,44 @@ namespace UdemyEgitimPlatformu.Controllers
                 return View(BirlestirilmisViewModel1);
             }
 
-            var user = new ApplicationUser { UserName = model.RegisterViewModel.Email, Email = model.RegisterViewModel.Email };
+            var user = new ApplicationUser { UserName = model.RegisterViewModel.Email, Email = model.RegisterViewModel.Email, ProfilePictureUrl = "/images/profile_pictures/default.png" };
             var result = await _userManager.CreateAsync(user, model.RegisterViewModel.Password);
 
             if (result.Succeeded)
             {
 
-                _taskQueue.QueueBackgroundWorkItem(async token =>
+                var mesagebaslik = _context.SmtpSettings
+                                    .Select(x => x.Konu)
+                                    .FirstOrDefault();
+                var mesageicerik = _context.SmtpSettings
+                           .Select(x => x.Mesaj)
+                           .FirstOrDefault();
+                try
                 {
-                    var emailSubject = "Hoşgeldiniz!";
-                    var emailBody = "Kayıt olduğunuz için teşekkürler!";
-                    await _emailService.SendEmailAsync(user.Email, emailSubject, emailBody);
-                });
+                    await _emailSender.SendEmailAsync(user.Email, mesagebaslik, mesageicerik);
+                }
+                catch (Exception ex)
+                {
+                
+                    var log = new Log
+                    {
+                        Message = ex.Message,
+                        StackTrace = ex.StackTrace,
+                        Timestamp = DateTime.UtcNow
+                    };
+
+                    _context.Logs.Add(log);
+                    await _context.SaveChangesAsync();
+                }
+
+
+
+                //_taskQueue.QueueBackgroundWorkItem(async token =>
+                //{
+                //    var emailSubject = "Hoşgeldiniz!";
+                //    var emailBody = "Kayıt olduğunuz için teşekkürler!";
+                //    await _emailService.SendEmailAsync(user.Email, emailSubject, emailBody);
+                //});
 
 
 

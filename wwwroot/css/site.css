@@ -457,7 +457,7 @@ label::after{
     height: 100%;
 }
 .video-img {
-    width: 200px;
+
     height: 125px;
 }
 .hesaba-ekle {
@@ -550,4 +550,10 @@ label::after{
 }
 #videoContentContainer .register-input {
     margin-bottom:20px;
+}
+.hello-body {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }

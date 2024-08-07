@@ -75,7 +75,7 @@
                     <div class="profiles-m" style="width:15%;height:100%;">
                         <img src="@defaultphoto" height="100px" width="100px" />
                     </div>
-                    <div class="hello-texts" >
+                    <div class="hello-texts hello-body" >
                         <div class="text-module">
                             <span>Merhaba @sitename kullanıcısı! Profilinden bilgilerini güncellemeyi unutma. Adını ve profil fotoğrafını güncellediğinde, seni çok daha güzel fırsatlar karşılıyor olacak :)</span>
                         </div>
@@ -92,7 +92,7 @@
                     <div class="profiles-m" style="width:15%;height:100%;">
                         <img src="@Model.ApplicationUser.ProfilePictureUrl" height="100px" width="100px" />
                     </div>
-                    <div class="hello-texts" style="width:70%;height:100%;display:flex;">
+                    <div class="hello-texts hello-body" >
 
                         @if (!User.IsInRole("Admin") && !User.IsInRole("ContentCreator"))
                         {

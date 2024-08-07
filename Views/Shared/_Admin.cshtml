@@ -53,10 +53,11 @@
                     <img class="m-1" src="~/icons/layout/admin/home.svg" height="15px" />
                     @siteName | @siteDescription
                 </a>
+
+
             </li>
             <ul class="dropdown-menu dropdown-menu-dark">
                 <li><a asp-controller="Home" asp-action="Index" class="dropdown-item" >Siteyi Görüntüle</a></li>
-
             </ul>
           </div>
 
@@ -107,9 +108,23 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" asp-controller="Admin" asp-action="Menuler">
-                                <img src="~/icons/layout/admin/mail-pencil.svg" alt="Menü " width="20" height="30" class="mr-2" />
+                                <img src="~/icons/layout/admin/menus.svg" alt="Menü " width="20" height="30" class="mr-2" />
 
                                Menüler
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-controller="Admin" asp-action="Kullanicilar">
+                                <img src="~/icons/layout/admin/users.svg" alt="Menü " width="20" height="30" class="mr-2" />
+
+                                Kullanıcılar
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-controller="Admin" asp-action="Loglar">
+                                <img src="~/icons/layout/admin/logs.svg" alt="Menü " width="20" height="30" class="mr-2" />
+
+                                Loglar
                             </a>
                         </li>
                         <!-- Diğer menü öğeleri -->
@@ -136,6 +151,9 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/js/home.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa8U5w6TZoKNs9H3NpHl7wGdk" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-smhy4S2W2GogqeHiy9boVpY6hzU8J5O9bwhovv+2lF0JldlJnxZpLvEjp4iK0pY5" crossorigin="anonymous"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>

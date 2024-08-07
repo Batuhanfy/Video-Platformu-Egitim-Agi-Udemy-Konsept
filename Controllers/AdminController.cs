@@ -7,6 +7,7 @@ using UdemyEgitimPlatformu.ViewModel;
 using UdemyEgitimPlatformu.Models;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 using Newtonsoft.Json.Linq;
+using Microsoft.AspNetCore.Authorization;
 
 namespace UdemyEgitimPlatformu.Controllers
 {
@@ -24,7 +25,7 @@ namespace UdemyEgitimPlatformu.Controllers
 
         }
 
-
+        [Authorize(Roles = "Admin")]
         public ActionResult Index()
         {
             var KategoriListGenel = _context.Kategoriler.ToList();
@@ -45,7 +46,7 @@ namespace UdemyEgitimPlatformu.Controllers
 
         }
 
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Menuler()
         {
             var KategoriListGenel = _context.Kategoriler.ToList();
@@ -73,7 +74,7 @@ namespace UdemyEgitimPlatformu.Controllers
         }
 
 
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public IActionResult Update(CompositeViewModel model)
         {
@@ -99,6 +100,31 @@ namespace UdemyEgitimPlatformu.Controllers
             return RedirectToAction("Menuler");
         }
 
+
+        [Authorize(Roles = "Admin")]
+        public ActionResult Kullanicilar()
+        {
+            var KategoriListGenel = _context.Kategoriler.ToList();
+            var Settings_Ayarlar = _context.Settings.ToList();
+
+            var Kullanicilar = _context.Users.ToList();
+
+            var BirlestirilmisViewModel = new CompositeViewModel
+            {
+                ApplicationUsers = Kullanicilar,
+                CategoryViewModel = new CategoryViewModel
+                {
+                    KategoriListGenel = KategoriListGenel,
+                    Ayarlar = Settings_Ayarlar,
+                }
+            };
+
+            return View(BirlestirilmisViewModel);
+        }
+
+
+
+        [Authorize(Roles = "Admin")]
         public ActionResult GetSettings()
         {
             var KategoriListGenel = _context.Kategoriler.ToList();
@@ -118,22 +144,23 @@ namespace UdemyEgitimPlatformu.Controllers
             return View(BirlestirilmisViewModel);
         }
 
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
-        public IActionResult SmtpSettings(int id, string host,string username,string password,int port,bool EnableSsl)
+        public IActionResult SmtpSettings(int id, string host, string port, string username, string password, string konu, string mesaj, bool EnableSsl)
         {
-
             var check = false;
+
             // Güncelleme işlemini gerçekleştirin
             var setting = _context.SmtpSettings.FirstOrDefault(s => s.Id == id);
             if (setting != null)
             {
                 setting.Host = host;
+                setting.Port = int.Parse(port);
                 setting.Username = username;
                 setting.Password = password;
-                setting.Port = port;
+                setting.Konu = konu;
+                setting.Mesaj = mesaj;
                 setting.EnableSsl = EnableSsl;
-     
                 _context.SaveChanges();
 
                 check = true;
@@ -149,9 +176,33 @@ namespace UdemyEgitimPlatformu.Controllers
                 TempData["success"] = "false";
                 TempData["message"] = "Bir hata oluştu.";
             }
-            return RedirectToAction("SmtpSettings", "Admin");
+            return RedirectToAction("GetSettings", "Admin");
         }
-            public ActionResult SmtpSettings()
+
+        [Authorize(Roles = "Admin")]
+        public ActionResult Loglar()
+        {
+            var KategoriListGenel = _context.Kategoriler.ToList();
+            var Settings_Ayarlar = _context.Settings.ToList();
+
+            var loglar = _context.Logs.ToList();
+
+            var BirlestirilmisViewModel = new CompositeViewModel
+            {
+                Loglar = loglar,
+                CategoryViewModel = new CategoryViewModel
+                {
+                    KategoriListGenel = KategoriListGenel,
+                    Ayarlar = Settings_Ayarlar,
+                }
+            };
+
+            return View(BirlestirilmisViewModel);
+        }
+
+
+            [Authorize(Roles = "Admin")]
+        public ActionResult SmtpSettings()
         {
 
             var KategoriListGenel = _context.Kategoriler.ToList();
@@ -170,7 +221,7 @@ namespace UdemyEgitimPlatformu.Controllers
             return View(BirlestirilmisViewModel);
         }
 
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public IActionResult Guncelle(int id,string value)
         {
@@ -199,6 +250,7 @@ namespace UdemyEgitimPlatformu.Controllers
             return RedirectToAction("GetSettings", "Admin");
         }
 
+        [Authorize(Roles = "Admin")]
         public ActionResult Details(int id)
         {
             return View();
@@ -225,7 +277,7 @@ namespace UdemyEgitimPlatformu.Controllers
             }
         }
 
-        // GET: AdminController/Edit/5
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit(int id)
         {
             return View();
@@ -246,13 +298,13 @@ namespace UdemyEgitimPlatformu.Controllers
             }
         }
 
-        // GET: AdminController/Delete/5
+        [Authorize(Roles = "Admin")]
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: AdminController/Delete/5
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)

@@ -3,7 +3,9 @@ using UdemyEgitimPlatformu.Data;
 
 namespace UdemyEgitimPlatformu.Controllers
 {
+
     public class SettingsController : Controller
+
     {
         private readonly ApplicationDbContext _context;
 

@@ -55,9 +55,21 @@
                         </div>
 
                         <div class="form-group">
+                            <label for="konu_@smtp.Id">Kayıt Maili Başlığı</label>
+                            <input type="text" id="konu_@smtp.Id" name="konu" value="@smtp.Konu" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mesaj_@smtp.Id">Kayıt Maili İçeriği</label>
+                            <input type="text" id="mesaj_@smtp.Id" name="mesaj" value="@smtp.Mesaj" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
                             <label for="EnableSsl_@smtp.Id">Enable SSL</label>
                             <input type="checkbox" id="EnableSsl_@smtp.Id" name="EnableSsl" @(smtp.EnableSsl ? "checked" : "")>
                         </div>
+
+
 
                         <button type="submit" class="btn btn-primary">Kaydet</button>
                     </form>

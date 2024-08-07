@@ -24,7 +24,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\images\profile_pictures\" />
+    <Folder Include="wwwroot\shortvideos\" />
+    <Folder Include="wwwroot\videos-short\" />
+    <Folder Include="wwwroot\VideosImage\" />
+    <Folder Include="wwwroot\videos\" />
   </ItemGroup>
 
 </Project>

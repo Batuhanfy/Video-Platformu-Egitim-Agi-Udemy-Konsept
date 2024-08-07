@@ -8,6 +8,7 @@ using UdemyEgitimPlatformu.ViewModel;
 
 namespace UdemyEgitimPlatformu.Controllers
 {
+
     public class ApplicationRequestController : Controller
     {
 

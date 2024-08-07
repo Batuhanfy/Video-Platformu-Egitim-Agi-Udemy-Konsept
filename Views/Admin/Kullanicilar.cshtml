@@ -1,0 +1,68 @@
+﻿@model UdemyEgitimPlatformu.ViewModel.CompositeViewModel
+
+@{
+    ViewData["Title"] = "Kullanicilar";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h1>Kullanicilar</h1>
+
+
+<div class="container">
+    <div class="row">
+        <div class="container mt-5">
+            <h2>Kullanıcılar</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Date of Birth</th>
+                        <th>Profile Picture</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>Country</th>
+                        <th>Postal Code</th>
+                        <th>Email</th>
+                        <th>Username</th>
+                        <th>Phone Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in Model.ApplicationUsers)
+                    {
+                        <tr>
+                            <td>@user.Id</td>
+                            <td>@user.FirstName</td>
+                            <td>@user.LastName</td>
+                            <td>@user.DateOfBirth?.ToString("dd/MM/yyyy")</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(user.ProfilePictureUrl))
+                                {
+                                    <img src="@user.ProfilePictureUrl" alt="Profile Picture" style="width: 50px; height: 50px; object-fit: cover;" />
+                                }
+                                else
+                                {
+                                    <span>No Picture</span>
+                                }
+                            </td>
+                            <td>@user.Address</td>
+                            <td>@user.City</td>
+                            <td>@user.Country</td>
+                            <td>@user.PostalCode</td>
+                            <td>@user.Email</td>
+                            <td>@user.UserName</td>
+                            <td>@user.PhoneNumber</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+</div>
+
+
+

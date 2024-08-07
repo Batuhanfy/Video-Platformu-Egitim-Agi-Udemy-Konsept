@@ -190,6 +190,8 @@
                     </div>
 
                     <script>
+                        const defaultProfileImage = "/images/default.png"; 
+
                         const connection = new signalR.HubConnectionBuilder()
                             .withUrl("/onlineUsersHub")
                             .build();
@@ -198,16 +200,19 @@
                             const container = document.getElementById("user");
                             const countElement = document.getElementById("onlineUsersCount");
 
-                            container.innerHTML = ""; // Temizle
-                            countElement.textContent = onlineUsersCount; // Toplam sayıyı güncelle
+                            container.innerHTML = "";
+                            countElement.textContent = onlineUsersCount; 
 
                             onlineUsers.forEach(user => {
                                 const userDiv = document.createElement("div");
                                 userDiv.className = "online-user";
+
+                                const profileImage = user.profileImage ? user.profileImage : defaultProfileImage;
+
                                 userDiv.innerHTML = `
-                                                            <img src="${user.profileImage}" alt="${user.userName}'s profil fotoğrafı"/>
-                                                            <p>${user.userName}</p>
-                                                        `;
+                                        <img src="${profileImage}" alt="${user.userName}'s profil fotoğrafı"/>
+                                        <p>${user.userName}</p>
+                                    `;
                                 container.appendChild(userDiv);
                             });
                         });
@@ -218,6 +223,7 @@
                             return console.error(err.toString());
                         });
                     </script>
+
                     <span></span>
 
 </div>

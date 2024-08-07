@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Identity;
+using System.Collections.Generic;
 using UdemyEgitimPlatformu.Models;
 using UdemyEgitimPlatformu.ViewModels;
 
@@ -11,6 +12,8 @@ namespace UdemyEgitimPlatformu.ViewModel
         public List<Kategoriler>? KategorilerList { get; set; }
         public List<Menuler>? Menuler { get; set; }
 
+   
+        public List<Log> Loglar { get; set; }
         public string? Comments { get; set; }
         public LoginViewModel? LoginViewModel { get; set; }
         public RegisterViewModel? RegisterViewModel { get; set; }
@@ -19,6 +22,7 @@ namespace UdemyEgitimPlatformu.ViewModel
 
         public VideoUploadViewModel? VideoUploadViewModel { get; set; }
         public ApplicationUser? ApplicationUser {  get; set; }
+        public List<ApplicationUser>? ApplicationUsers { get; set; }
 
         public CategoryViewModel? CategoryViewModel { get; set; }
         public List<Videolar>? Videolar { get; set; }
@@ -29,6 +33,7 @@ namespace UdemyEgitimPlatformu.ViewModel
         public bool? IsVideoInUserList { get; set; }
         public string? Username { get; set; }
         public string? UsernameID { get; set; }
+  
 
 
     }

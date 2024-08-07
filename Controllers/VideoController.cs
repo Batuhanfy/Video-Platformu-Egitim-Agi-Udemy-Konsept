@@ -14,7 +14,7 @@ using Newtonsoft.Json;
 
 namespace UdemyEgitimPlatformu.Controllers
 {
-    [Authorize(Roles = "ContentCreator")]
+    [Authorize(Roles = "Admin,ContentCreator")]
     public class VideoController : Controller
     {
         private readonly ApplicationDbContext _context;

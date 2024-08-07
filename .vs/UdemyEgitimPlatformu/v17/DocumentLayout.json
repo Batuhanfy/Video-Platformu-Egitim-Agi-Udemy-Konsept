@@ -3,32 +3,116 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\home\\ara.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\home\\ara.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\applicationrequest\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\applicationrequest\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\home\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\home\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\controllers\\applicationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:controllers\\applicationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\shared\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\shared\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\admin\\kullanicilar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\admin\\kullanicilar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\viewmodel\\compositeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:viewmodel\\compositeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\controllers\\genelverilercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:controllers\\genelverilercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\admin\\loglar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\admin\\loglar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\wwwroot\\css\\mainhome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:wwwroot\\css\\mainhome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\admin\\menuler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\admin\\menuler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\admin\\smtpsettings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\admin\\smtpsettings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\controllers\\genelveriler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:controllers\\genelveriler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\email\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:email\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\service\\ibackgroundtaskqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:service\\ibackgroundtaskqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\home\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\home\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\home\\ara.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\home\\ara.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\home\\sss.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,20 +123,8 @@
       "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\home\\destek.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\admin\\menuler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\admin\\menuler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\models\\menuler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:models\\menuler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|c:\\users\\lenovo\\source\\repos\\udemyegitimplatformu\\udemyegitimplatformu\\bidemy-learning\\views\\applicationrequest\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C245CB1D-53B4-4C92-B724-F411B261F0A6}|UdemyEgitimPlatformu.csproj|solutionrelative:views\\applicationrequest\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,17 +134,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAHsBAAAAAAAAAAAnwIwBAAAWAAAA",
+              "ViewState": "AQIAABcCAAAAAAAAAAAAwC0CAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-08-04T13:26:06.341Z",
               "IsPinned": true,
@@ -80,42 +152,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Category.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Home\\Category.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Category.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Home\\Category.cshtml",
-              "RelativeToolTip": "Views\\Home\\Category.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T21:38:31.729Z",
-              "EditorCaption": ""
+              "DocumentIndex": 7,
+              "Title": "CompositeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\ViewModel\\CompositeViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CompositeViewModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\ViewModel\\CompositeViewModel.cs",
+              "RelativeToolTip": "ViewModel\\CompositeViewModel.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T15:31:26.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ara.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Home\\Ara.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Ara.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Home\\Ara.cshtml",
-              "RelativeToolTip": "Views\\Home\\Ara.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAA1AAAA",
+              "DocumentIndex": 11,
+              "Title": "mainhome.css",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\css\\mainhome.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\mainhome.css",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\css\\mainhome.css",
+              "RelativeToolTip": "wwwroot\\css\\mainhome.css",
+              "ViewState": "AQIAALABAAAAAAAAAAAiwNMBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-06T15:47:23.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAAALkAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T21:50:10.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T15:48:43.559Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAgwEQAAAAAAAAA",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\ApplicationRequest\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\ApplicationRequest\\Create.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\ApplicationRequest\\Create.cshtml",
+              "RelativeToolTip": "Views\\ApplicationRequest\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACUAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T19:38:59.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationRequestController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\ApplicationRequestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApplicationRequestController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\ApplicationRequestController.cs",
+              "RelativeToolTip": "Controllers\\ApplicationRequestController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T21:37:43.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T09:59:43.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenelVerilerController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\GenelVerilerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GenelVerilerController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\GenelVerilerController.cs",
+              "RelativeToolTip": "Controllers\\GenelVerilerController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T14:43:39.25Z"
             },
             {
               "$type": "Document",
@@ -125,14 +230,253 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Admin.cshtml",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Shared\\_Admin.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Admin.cshtml",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAiwGwAAABlAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T21:18:58.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T21:18:58.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAFsAAAAAAAAAAAD4v3cAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T19:38:32.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAIwG8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T10:00:05.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwCoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T07:11:24.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Loglar.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Admin\\Loglar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Loglar.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Admin\\Loglar.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Loglar.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T15:30:57.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Kullanicilar.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Admin\\Kullanicilar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Kullanicilar.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Admin\\Kullanicilar.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Kullanicilar.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T15:55:48.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Menuler.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Admin\\Menuler.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Menuler.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Admin\\Menuler.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Menuler.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T18:49:19.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwE4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T20:12:05.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SmtpSettings.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Admin\\SmtpSettings.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\SmtpSettings.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Admin\\SmtpSettings.cshtml",
+              "RelativeToolTip": "Views\\Admin\\SmtpSettings.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T06:37:40.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Models\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "Models\\SmtpSettings.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Models\\SmtpSettings.cs",
+              "RelativeToolTip": "Models\\SmtpSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T06:37:50.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T21:37:43.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:55:02.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Models\\Log.cs",
+              "RelativeDocumentMoniker": "Models\\Log.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Models\\Log.cs",
+              "RelativeToolTip": "Models\\Log.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T15:03:00.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Email\\EmailSender.cs",
+              "RelativeDocumentMoniker": "Email\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Email\\EmailSender.cs",
+              "RelativeToolTip": "Email\\EmailSender.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T07:01:39.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VideoController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\VideoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VideoController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\VideoController.cs",
+              "RelativeToolTip": "Controllers\\VideoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:59:50.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GenelVeriler.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\GenelVeriler.cs",
+              "RelativeDocumentMoniker": "Controllers\\GenelVeriler.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\GenelVeriler.cs",
+              "RelativeToolTip": "Controllers\\GenelVeriler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T14:43:37.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IBackgroundTaskQueue.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Service\\IBackgroundTaskQueue.cs",
+              "RelativeDocumentMoniker": "Service\\IBackgroundTaskQueue.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Service\\IBackgroundTaskQueue.cs",
+              "RelativeToolTip": "Service\\IBackgroundTaskQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T06:38:04.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "Service\\EmailService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Service\\EmailService.cs",
+              "RelativeToolTip": "Service\\EmailService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T06:38:11.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAIAAAAAAAAAAABRwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-06T07:04:36.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Category.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Home\\Category.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Category.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Home\\Category.cshtml",
+              "RelativeToolTip": "Views\\Home\\Category.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAIBJwDsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T21:38:31.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Ara.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Home\\Ara.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Ara.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Home\\Ara.cshtml",
+              "RelativeToolTip": "Views\\Home\\Ara.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAEBVwBEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T21:50:10.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "SSS.cshtml",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Home\\SSS.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\SSS.cshtml",
@@ -140,12 +484,11 @@
               "RelativeToolTip": "Views\\Home\\SSS.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T21:06:36.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T21:06:36.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 29,
               "Title": "Destek.cshtml",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Home\\Destek.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Destek.cshtml",
@@ -153,51 +496,11 @@
               "RelativeToolTip": "Views\\Home\\Destek.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T21:00:54.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T21:00:54.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAADgvzcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T20:49:48.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAADgv3MAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T20:12:05.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Menuler.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Admin\\Menuler.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Menuler.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Admin\\Menuler.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Menuler.cshtml",
-              "ViewState": "AQIAABYAAAAAAAAAAADwvxsAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T18:49:19.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 30,
               "Title": "Menuler.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Models\\Menuler.cs",
               "RelativeDocumentMoniker": "Models\\Menuler.cs",
@@ -205,34 +508,7 @@
               "RelativeToolTip": "Models\\Menuler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T19:34:46.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\ApplicationRequest\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\ApplicationRequest\\Create.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\ApplicationRequest\\Create.cshtml",
-              "RelativeToolTip": "Views\\ApplicationRequest\\Create.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACIAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T19:38:59.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAACEBAAAAAAAAAADwvygBAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T19:38:32.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T19:34:46.778Z"
             }
           ]
         }

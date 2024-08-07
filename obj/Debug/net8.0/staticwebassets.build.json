@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "geEVNn3bdiGB+p5POsSts6AxcCAqedKRz7GYRwI+arQ=",
+  "Hash": "u3p+/I0zu902jl3K62y9+RYVevcIfGhdkC+cArzTEVs=",
   "Source": "UdemyEgitimPlatformu",
   "BasePath": "_content/UdemyEgitimPlatformu",
   "Mode": "Default",
@@ -302,6 +302,25 @@
       "OriginalItemSpec": "wwwroot\\icons\\layout\\admin\\home.svg"
     },
     {
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\admin\\logs.svg",
+      "SourceId": "UdemyEgitimPlatformu",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
+      "BasePath": "_content/UdemyEgitimPlatformu",
+      "RelativePath": "icons/layout/admin/logs.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\layout\\admin\\logs.svg"
+    },
+    {
       "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\admin\\mail-pencil.svg",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
@@ -321,6 +340,25 @@
       "OriginalItemSpec": "wwwroot\\icons\\layout\\admin\\mail-pencil.svg"
     },
     {
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\admin\\menus.svg",
+      "SourceId": "UdemyEgitimPlatformu",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
+      "BasePath": "_content/UdemyEgitimPlatformu",
+      "RelativePath": "icons/layout/admin/menus.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\layout\\admin\\menus.svg"
+    },
+    {
       "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\admin\\settings.svg",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
@@ -338,6 +376,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icons\\layout\\admin\\settings.svg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\admin\\users.svg",
+      "SourceId": "UdemyEgitimPlatformu",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
+      "BasePath": "_content/UdemyEgitimPlatformu",
+      "RelativePath": "icons/layout/admin/users.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\layout\\admin\\users.svg"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\icons\\layout\\admin\\world.svg",
@@ -720,6 +777,25 @@
       "OriginalItemSpec": "wwwroot\\images\\profile_pictures\\dance.png"
     },
     {
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\default.png",
+      "SourceId": "UdemyEgitimPlatformu",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
+      "BasePath": "_content/UdemyEgitimPlatformu",
+      "RelativePath": "images/profile_pictures/default.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile_pictures\\default.png"
+    },
+    {
       "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\desktop.webp",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
@@ -815,6 +891,25 @@
       "OriginalItemSpec": "wwwroot\\images\\profile_pictures\\man.png"
     },
     {
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\maxresdefault-1722940217.jpg",
+      "SourceId": "UdemyEgitimPlatformu",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
+      "BasePath": "_content/UdemyEgitimPlatformu",
+      "RelativePath": "images/profile_pictures/maxresdefault-1722940217.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile_pictures\\maxresdefault-1722940217.jpg"
+    },
+    {
       "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\msg777000-9334.jpg",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
@@ -870,6 +965,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\profile_pictures\\Screenshot_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\user.png",
+      "SourceId": "UdemyEgitimPlatformu",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
+      "BasePath": "_content/UdemyEgitimPlatformu",
+      "RelativePath": "images/profile_pictures/user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile_pictures\\user.png"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\images\\profile_pictures\\user-circle-svgrepo-com (2).svg",
@@ -2221,12 +2335,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\shortvideos\\fa8mxe_20240805160802.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\2eow0k_20240806135151.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "shortvideos/fa8mxe_20240805160802.mp4",
+      "RelativePath": "videos/2eow0k_20240806135151.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2237,15 +2351,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\shortvideos\\fa8mxe_20240805160802.mp4"
+      "OriginalItemSpec": "wwwroot\\videos\\2eow0k_20240806135151.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\shortvideos\\g9hfgw_20240805162601.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\83gem1_20240806135516.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "shortvideos/g9hfgw_20240805162601.mp4",
+      "RelativePath": "videos/83gem1_20240806135516.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2256,15 +2370,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\shortvideos\\g9hfgw_20240805162601.mp4"
+      "OriginalItemSpec": "wwwroot\\videos\\83gem1_20240806135516.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\3.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\83gem1_20240806135656.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos/3.mp4",
+      "RelativePath": "videos/83gem1_20240806135656.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2275,15 +2389,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos\\3.mp4"
+      "OriginalItemSpec": "wwwroot\\videos\\83gem1_20240806135656.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\7.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\83gem1_20240806135802.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos/7.mp4",
+      "RelativePath": "videos/83gem1_20240806135802.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2294,15 +2408,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos\\7.mp4"
+      "OriginalItemSpec": "wwwroot\\videos\\83gem1_20240806135802.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\fa8mxe_20240805160802.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\83gem1_20240806135921.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos/fa8mxe_20240805160802.mp4",
+      "RelativePath": "videos/83gem1_20240806135921.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2313,15 +2427,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos\\fa8mxe_20240805160802.mp4"
+      "OriginalItemSpec": "wwwroot\\videos\\83gem1_20240806135921.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\fa8mxe_20240805162601.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\83gem1_20240806142520.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos/fa8mxe_20240805162601.mp4",
+      "RelativePath": "videos/83gem1_20240806142520.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2332,15 +2446,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos\\fa8mxe_20240805162601.mp4"
+      "OriginalItemSpec": "wwwroot\\videos\\83gem1_20240806142520.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\fa8mxe_20240805170058.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\bjar5c (1)_20240806134506.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos/fa8mxe_20240805170058.mp4",
+      "RelativePath": "videos/bjar5c (1)_20240806134506.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2351,15 +2465,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos\\fa8mxe_20240805170058.mp4"
+      "OriginalItemSpec": "wwwroot\\videos\\bjar5c (1)_20240806134506.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\fa8mxe_20240805194129.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\bjar5c (1)_20240806134919.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos/fa8mxe_20240805194129.mp4",
+      "RelativePath": "videos/bjar5c (1)_20240806134919.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2370,15 +2484,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos\\fa8mxe_20240805194129.mp4"
+      "OriginalItemSpec": "wwwroot\\videos\\bjar5c (1)_20240806134919.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\fa8mxe_20240805194330.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\bjar5c_20240806132936.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos/fa8mxe_20240805194330.mp4",
+      "RelativePath": "videos/bjar5c_20240806132936.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2389,15 +2503,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos\\fa8mxe_20240805194330.mp4"
+      "OriginalItemSpec": "wwwroot\\videos\\bjar5c_20240806132936.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\fa8mxe_20240805234839.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\maxresdefault-1722940029_20240806132936.jpg",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos/fa8mxe_20240805234839.mp4",
+      "RelativePath": "VideosImage/maxresdefault-1722940029_20240806132936.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2408,15 +2522,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos\\fa8mxe_20240805234839.mp4"
+      "OriginalItemSpec": "wwwroot\\VideosImage\\maxresdefault-1722940029_20240806132936.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\g9hfgw_20240805163418.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\maxresdefault-1722940217_20240806134506.jpg",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos/g9hfgw_20240805163418.mp4",
+      "RelativePath": "VideosImage/maxresdefault-1722940217_20240806134506.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2427,15 +2541,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos\\g9hfgw_20240805163418.mp4"
+      "OriginalItemSpec": "wwwroot\\VideosImage\\maxresdefault-1722940217_20240806134506.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\g9hfgw_20240805194211.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\maxresdefault-1722941148_20240806134727.jpg",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos/g9hfgw_20240805194211.mp4",
+      "RelativePath": "VideosImage/maxresdefault-1722941148_20240806134727.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2446,15 +2560,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos\\g9hfgw_20240805194211.mp4"
+      "OriginalItemSpec": "wwwroot\\VideosImage\\maxresdefault-1722941148_20240806134727.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos\\g9hfgw_20240805194250.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\maxresdefault-1722941148_20240806134919.jpg",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos/g9hfgw_20240805194250.mp4",
+      "RelativePath": "VideosImage/maxresdefault-1722941148_20240806134919.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2465,15 +2579,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos\\g9hfgw_20240805194250.mp4"
+      "OriginalItemSpec": "wwwroot\\VideosImage\\maxresdefault-1722941148_20240806134919.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\3.jpg",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\maxresdefault-1722941386_20240806135151.jpg",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "VideosImage/3.jpg",
+      "RelativePath": "VideosImage/maxresdefault-1722941386_20240806135151.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2484,15 +2598,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\VideosImage\\3.jpg"
+      "OriginalItemSpec": "wwwroot\\VideosImage\\maxresdefault-1722941386_20240806135151.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\7.jpg",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\maxresdefault-1722941615_20240806135516.jpg",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "VideosImage/7.jpg",
+      "RelativePath": "VideosImage/maxresdefault-1722941615_20240806135516.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2503,15 +2617,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\VideosImage\\7.jpg"
+      "OriginalItemSpec": "wwwroot\\VideosImage\\maxresdefault-1722941615_20240806135516.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\dance_20240805170059.png",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\maxresdefault-1722941766_20240806135656.jpg",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "VideosImage/dance_20240805170059.png",
+      "RelativePath": "VideosImage/maxresdefault-1722941766_20240806135656.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2522,15 +2636,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\VideosImage\\dance_20240805170059.png"
+      "OriginalItemSpec": "wwwroot\\VideosImage\\maxresdefault-1722941766_20240806135656.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\dance_20240805194129.png",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\maxresdefault-1722941846_20240806135802.jpg",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "VideosImage/dance_20240805194129.png",
+      "RelativePath": "VideosImage/maxresdefault-1722941846_20240806135802.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2541,15 +2655,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\VideosImage\\dance_20240805194129.png"
+      "OriginalItemSpec": "wwwroot\\VideosImage\\maxresdefault-1722941846_20240806135802.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\dance_20240805194330.png",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\maxresdefault-1722941896_20240806135921.jpg",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "VideosImage/dance_20240805194330.png",
+      "RelativePath": "VideosImage/maxresdefault-1722941896_20240806135921.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2560,15 +2674,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\VideosImage\\dance_20240805194330.png"
+      "OriginalItemSpec": "wwwroot\\VideosImage\\maxresdefault-1722941896_20240806135921.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\dance_20240805234839.png",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\maxresdefault-1722943460_20240806142520.jpg",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "VideosImage/dance_20240805234839.png",
+      "RelativePath": "VideosImage/maxresdefault-1722943460_20240806142520.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2579,15 +2693,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\VideosImage\\dance_20240805234839.png"
+      "OriginalItemSpec": "wwwroot\\VideosImage\\maxresdefault-1722943460_20240806142520.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\logout-2-svgrepo-com_20240805194250.svg",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\2eow0k_20240806135151.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "VideosImage/logout-2-svgrepo-com_20240805194250.svg",
+      "RelativePath": "videos-short/2eow0k_20240806135151.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2598,15 +2712,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\VideosImage\\logout-2-svgrepo-com_20240805194250.svg"
+      "OriginalItemSpec": "wwwroot\\videos-short\\2eow0k_20240806135151.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\mail-pencil-svgrepo-com_20240805194211.svg",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\83gem1_20240806135516.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "VideosImage/mail-pencil-svgrepo-com_20240805194211.svg",
+      "RelativePath": "videos-short/83gem1_20240806135516.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2617,15 +2731,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\VideosImage\\mail-pencil-svgrepo-com_20240805194211.svg"
+      "OriginalItemSpec": "wwwroot\\videos-short\\83gem1_20240806135516.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\VideosImage\\Video Center (1)_20240805163418.png",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\83gem1_20240806135656.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "VideosImage/Video Center (1)_20240805163418.png",
+      "RelativePath": "videos-short/83gem1_20240806135656.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2636,15 +2750,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\VideosImage\\Video Center (1)_20240805163418.png"
+      "OriginalItemSpec": "wwwroot\\videos-short\\83gem1_20240806135656.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\3.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\83gem1_20240806135802.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos-short/3.mp4",
+      "RelativePath": "videos-short/83gem1_20240806135802.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2655,15 +2769,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos-short\\3.mp4"
+      "OriginalItemSpec": "wwwroot\\videos-short\\83gem1_20240806135802.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\7.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\83gem1_20240806135921.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos-short/7.mp4",
+      "RelativePath": "videos-short/83gem1_20240806135921.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2674,15 +2788,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos-short\\7.mp4"
+      "OriginalItemSpec": "wwwroot\\videos-short\\83gem1_20240806135921.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\fa8mxe_20240805194129.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\83gem1_20240806142520.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos-short/fa8mxe_20240805194129.mp4",
+      "RelativePath": "videos-short/83gem1_20240806142520.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2693,15 +2807,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos-short\\fa8mxe_20240805194129.mp4"
+      "OriginalItemSpec": "wwwroot\\videos-short\\83gem1_20240806142520.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\fa8mxe_20240805194330.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\bjar5c (1)_20240806134506.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos-short/fa8mxe_20240805194330.mp4",
+      "RelativePath": "videos-short/bjar5c (1)_20240806134506.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2712,15 +2826,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos-short\\fa8mxe_20240805194330.mp4"
+      "OriginalItemSpec": "wwwroot\\videos-short\\bjar5c (1)_20240806134506.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\fa8mxe_20240805234839.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\bjar5c (1)_20240806134919.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos-short/fa8mxe_20240805234839.mp4",
+      "RelativePath": "videos-short/bjar5c (1)_20240806134919.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2731,15 +2845,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos-short\\fa8mxe_20240805234839.mp4"
+      "OriginalItemSpec": "wwwroot\\videos-short\\bjar5c (1)_20240806134919.mp4"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\g9hfgw_20240805163418.mp4",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\bjar5c_20240806132936.mp4",
       "SourceId": "UdemyEgitimPlatformu",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
       "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos-short/g9hfgw_20240805163418.mp4",
+      "RelativePath": "videos-short/bjar5c_20240806132936.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2750,64 +2864,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos-short\\g9hfgw_20240805163418.mp4"
-    },
-    {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\g9hfgw_20240805170059.mp4",
-      "SourceId": "UdemyEgitimPlatformu",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
-      "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos-short/g9hfgw_20240805170059.mp4",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos-short\\g9hfgw_20240805170059.mp4"
-    },
-    {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\g9hfgw_20240805194211.mp4",
-      "SourceId": "UdemyEgitimPlatformu",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
-      "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos-short/g9hfgw_20240805194211.mp4",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos-short\\g9hfgw_20240805194211.mp4"
-    },
-    {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\videos-short\\g9hfgw_20240805194250.mp4",
-      "SourceId": "UdemyEgitimPlatformu",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\UdemyEgitimPlatformu\\UdemyEgitimPlatformu\\Bidemy-Learning\\wwwroot\\",
-      "BasePath": "_content/UdemyEgitimPlatformu",
-      "RelativePath": "videos-short/g9hfgw_20240805194250.mp4",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\videos-short\\g9hfgw_20240805194250.mp4"
+      "OriginalItemSpec": "wwwroot\\videos-short\\bjar5c_20240806132936.mp4"
     }
   ]
 }

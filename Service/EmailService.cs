@@ -19,8 +19,9 @@ public class EmailService : IEmailService
 
     public async Task SendEmailAsync(string toEmail, string subject, string body)
     {
-        var smtpClient = new SmtpClient(_smtpSettings.Host)
+        var smtpClient = new SmtpClient("smtp.office365.com")
         {
+            Host = _smtpSettings.Host,
             Port = _smtpSettings.Port,
             Credentials = new NetworkCredential(_smtpSettings.Username, _smtpSettings.Password),
             EnableSsl = _smtpSettings.EnableSsl,

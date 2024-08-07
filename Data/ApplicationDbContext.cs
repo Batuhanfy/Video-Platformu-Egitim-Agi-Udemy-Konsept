@@ -13,6 +13,7 @@ namespace UdemyEgitimPlatformu.Data
         }
 
         public DbSet<SmtpSettings> SmtpSettings { get; set; }
+        public DbSet<Log> Logs { get; set; }
 
         public DbSet<Settings> Settings { get; set; }
         public DbSet<Yorumlar> Yorumlar { get; set; }
