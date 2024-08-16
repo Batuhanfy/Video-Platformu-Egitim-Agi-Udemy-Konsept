@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UdemyEgitimPlatformu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+878d966dc6addf36e7ae3e0866f27e313f17bc7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc7d84eb51abb218fcddff8e37f091d41cc39505")]
 [assembly: System.Reflection.AssemblyProductAttribute("UdemyEgitimPlatformu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UdemyEgitimPlatformu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
