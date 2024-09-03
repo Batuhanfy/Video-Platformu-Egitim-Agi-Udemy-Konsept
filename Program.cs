@@ -6,16 +6,16 @@ using UdemyEgitimPlatformu.Data;
 using UdemyEgitimPlatformu.Email;
 using UdemyEgitimPlatformu.Models;
 using UdemyEgitimPlatformu.Services;
-
+ 
 namespace BidemyLearning
 {
     public class Program
     {
         public static void Main(string[] args)
-        {
+        { 
             var builder = WebApplication.CreateBuilder(args);
 
-            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+            var connectionString =  builder.Configuration.GetConnectionString("DefaultConnection")
                 ?? throw new InvalidOperationException("Database Not Connection");
 
             builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
@@ -33,7 +33,7 @@ namespace BidemyLearning
             builder.Services.AddScoped<SmtpSettings>(provider =>
             {
                 var dbContext = provider.GetService<ApplicationDbContext>();
-                return dbContext?.SmtpSettings.FirstOrDefault() ?? new SmtpSettings(); // Default deðer ile boþ kontrolü
+                return dbContext?.SmtpSettings.FirstOrDefault() ?? new SmtpSettings(); // Default deï¿½er ile boï¿½ kontrolï¿½
             });
             builder.Services.AddScoped<IEmailService, EmailService>();
 
@@ -84,7 +84,7 @@ namespace BidemyLearning
                 var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
 
                 // rollerim
-                // normal kullanýcý, içerik üretici ve admin
+                // normal kullanï¿½cï¿½, iï¿½erik ï¿½retici ve admin
                 string[] roleNames = { "NormalUser", "ContentCreator", "Admin" };
                 IdentityResult roleResult;
 
@@ -101,7 +101,7 @@ namespace BidemyLearning
               
 
 
-                //örnek user 
+                //ï¿½rnek user 
                 var user = await userManager.FindByEmailAsync("admin@example.com");
                 if (user == null)
                 {
