@@ -24,7 +24,7 @@ public class BackgroundWorker : BackgroundService
             try
             {
                 await workItem(stoppingToken);
-                _logger.LogInformation("Başarıyla gerçekleştirildi.");
+                _logger.LogInformation("Başarıyla gerçekleştirildi. ");
                 Console.WriteLine("Başarıyla gerçekleştirildi.");
 
             }
