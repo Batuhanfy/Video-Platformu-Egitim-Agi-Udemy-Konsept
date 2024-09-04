@@ -40,7 +40,7 @@ public class EmailService : IEmailService
         try
         {
             await smtpClient.SendMailAsync(mailMessage);
-            _logger.LogInformation($"E-Mail başarıyla gönderildi:  {toEmail}.");
+            _logger.LogInformation($"E-Mail başarıyla gönderildi:   {toEmail}.");
         }
         catch (SmtpException smtpEx)
         {
