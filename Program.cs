@@ -93,11 +93,11 @@ namespace BidemyLearning
                     var roleExist = await roleManager.RoleExistsAsync(roleName);
                     if (!roleExist)
                     {
-                        roleResult = await roleManager.CreateAsync(new IdentityRole(roleName));
+                         roleResult = await roleManager.CreateAsync(new IdentityRole(roleName));
                     }
                 }
 
-
+                 
               
 
 
