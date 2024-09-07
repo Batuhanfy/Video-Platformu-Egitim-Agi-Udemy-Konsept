@@ -73,7 +73,7 @@ namespace BidemyLearning
 
             app.MapHub<OnlineUsersHub>("/onlineUsersHub");
 
-            app.Run();
+             app.Run();
         }
 
         private static async Task CreateRolesAndAdminUser(WebApplication app)
