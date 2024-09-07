@@ -84,7 +84,7 @@ namespace BidemyLearning
                 var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
 
                 // rollerim
-                // normal kullan�c�, i�erik �retici ve admin
+                // normal kullan�c�, i�erik �retici ve admin 
                 string[] roleNames = { "NormalUser", "ContentCreator", "Admin" };
                 IdentityResult roleResult;
 
