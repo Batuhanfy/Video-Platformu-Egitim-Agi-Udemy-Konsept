@@ -110,7 +110,7 @@ namespace BidemyLearning
                         UserName = "admin@example.com",
                         Email = "admin@example.com"
                     };
-                  await userManager.CreateAsync(user, "AdminPassword123!");
+                 await userManager.CreateAsync(user, "AdminPassword123!");
                 }
 
                 if (!await userManager.IsInRoleAsync(user, "Admin"))
