@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UdemyEgitimPlatformu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fbfb88138037439dae5a4d31adc24a159edcc81")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6670caf28c7c39160ee3ce5d1cfddce2f449a78")]
 [assembly: System.Reflection.AssemblyProductAttribute("UdemyEgitimPlatformu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UdemyEgitimPlatformu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
