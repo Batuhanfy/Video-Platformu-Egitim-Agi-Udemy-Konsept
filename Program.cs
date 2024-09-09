@@ -18,7 +18,7 @@ namespace BidemyLearning
             var connectionString =  builder.Configuration.GetConnectionString("DefaultConnection")
                 ?? throw new InvalidOperationException("Database Not Connection");
 
-            builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
+             builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
             builder.Services.AddSignalR();
