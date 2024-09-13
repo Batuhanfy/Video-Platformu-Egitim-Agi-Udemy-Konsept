@@ -17,14 +17,14 @@
 @if (TempData["SuccessMessage"] != null)
 {
     <div class="alert alert-success">
-        @TempData["SuccessMessage"]   
+        @TempData["SuccessMessage"]     
     </div>
 }
 
 @if (TempData["ErrorMessage"] != null)
 {
     <div class="alert alert-danger">
-        @TempData["ErrorMessage"]
+         @TempData["ErrorMessage"]
     </div>
     var i = 0;
     @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
