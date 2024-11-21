@@ -19,8 +19,8 @@ namespace UdemyEgitimPlatformu.Controllers
         private readonly IBackgroundTaskQueue _taskQueue;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
-        private readonly ApplicationDbContext _context;
-        //private readonly IEmailService _emailService;
+        private readonly ApplicationDbContext _context; 
+         //private readonly IEmailService _emailService;
         private readonly IEmailSender _emailSender;
 
         public AccountController(IEmailSender emailSender, IBackgroundTaskQueue taskQueue,UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, ApplicationDbContext context, IEmailService emailService)
@@ -101,7 +101,7 @@ namespace UdemyEgitimPlatformu.Controllers
 
                     _context.Logs.Add(log);
                     await _context.SaveChangesAsync();
-                }
+                 }
 
 
 
